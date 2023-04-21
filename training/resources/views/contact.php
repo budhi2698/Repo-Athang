@@ -28,18 +28,13 @@
                 <li><a href="blog">Blog</a></li>
                 <li><a href="contact">Contact Us</a></li>
             </ul>
-        </nav>
-    </header><!--nav end-->
+        </nav><!--nav end-->
+    </header>
 
-    <section id="courses">
-        <h2>Our Courses</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Graphic Design</li>
-            <li>Networking</li>
-            <li>Project Management</li>
-            <li>ECCD</li>
-        </ul>
+    <section id="hero">
+        <h1>Welcome to our Training Academy</h1>
+        <p>We offer a wide range of courses to help you achieve your career goals.</p>
+        <a href="#" class="cta">Enroll Now</a>
     </section>
 
     <footer><!--footer start-->
@@ -71,8 +66,5 @@
             </div>
         </div>
     </footer><!--footer end-->
-</body>
-</html>
-
 </body>
 </html>
