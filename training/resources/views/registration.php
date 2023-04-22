@@ -10,7 +10,7 @@
 <body>
     <header>
         <nav><!--nav start-->
-            <img src="/public/images/image.png" alt="Logo">
+        <img src="logo.jpg">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="announce">Announcement</a></li>
@@ -23,14 +23,8 @@
                 <li><a href="blog">Blog</a></li>
                 <li><a href="contact">Contact Us</a></li>
             </ul>
-            <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
         </nav><!--nav end-->
     </header>
-    
     <form>
         <h2>Student Registration Form</h2>
         <label for="name">Name</label>

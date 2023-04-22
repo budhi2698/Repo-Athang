@@ -15,7 +15,7 @@
     <body class="antialiased">
     <header>
         <nav><!--nav start-->
-            <img src="/public/images/image.png" alt="Logo">
+        <img src="logo.jpg">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="announce">Announcement</a></li>
