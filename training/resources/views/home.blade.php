@@ -27,38 +27,115 @@
     
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-              <img src="ap.jpg" class="d-block w-100" alt="...">
-            </div> 
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="erp.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item active" data-bs-interval="1000">
+                <img src="ap.jpg" class="d-block w-100" alt="...">
+                </div> 
+
+                <div class="carousel-item" data-bs-interval="2000">
+                <img src="erp.jpg" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                <img src="js.jpg" class="d-block w-100" alt="...">
+                </div>
+               
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+       </div>
+    </div>
+       <br>   
+       <br> 
+    <!---------------------------------------------------CARD-------------------------------------------------------->
+    <h1 style="font-family:fantasy; text-align:center;">Services we offer</h1><br>
+  
+        <div class="containers">
+            <div class="card">
+                <img src="ap.jpg">
+                    <div class="contenido">
+                        <h4>Software solution</h4>
+                         <p>1.project and Management<br>
+                         2.Testing and Quality assurance<br>
+                         3.Maintenance and support
+                         </p>
+                    </div>
             </div>
-            <div class="carousel-item">
-              <img src="js.jpg" class="d-block w-100" alt="...">
+
+            <div class="card">
+                <img src="erp.jpg">
+                    <div class="contenido">
+                       <h4>3-D Animation</h4>
+                        <p>1.2-D Training services<br>
+                        2.3D module<br>
+                        3.Photoshop and adobe premier
+                        </p>
+                    </div>
+            </div>
+
+            <div class="card">
+                <img src="js.jpg">
+                    <div class="contenido">
+                        <h4>Technologies services</h4>
+                        <p>1.Diploma in Info technology<br>
+                        2.ERP system<br>
+                        3.Partnership of molhr
+                        </p>
+                    </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-</div>
+    <br>
 
-        <div class="card" style="width: 18rem; margin-left:80px;" >
-        <img src="ap.jpg" class="card-img-top" alt="..." height="150px;">
-            <div class="card-body">
-                <h4 style="text-align:center;">Software solution</h2>
-                <p class="card-text">1.Project and portfollio management<br><br>
-                2.Testing and quality assurance<br><br>
-                3.Maintenance  and support
-            </p>
-            </div>
-        </div>
+<!---------------------------------details ---------------->
+    <div class="box">
+        <h2 class="bols">Since 2005</h2>
+        <p style="text-align:center; color:#fff;padding:30px;">Based in Thimphu, 
+        Bhutan with aim of changing demand of customers in field of ICT</p>
+    </div>
+    <br>
+    <br>
 
-        <?php 
+
+  <div class="boxc">
+  <img src="athangb.jpg" class="athang">
+    <p style="padding-left:20px;">Athang is a pioneering software development and training 
+academy firm greatly driven by the information technology. 
+<br>
+Athang strives for the excellence in offering our services, 
+be it a training programme or developing your website or 
+producing an animation work that our audience would love to 
+watch or restoring your internet breakdown and many more.<br><br>
+As a company, Athang believes in the team work and democratic 
+working culture to bring the best of  every employees at 
+personal as well as professional level. 
+As credential, Athang has been with  international organizations in 
+IT/software Services, professional training, and 3D animations.
+<br>
+Athang strives for the excellence in offering our services, 
+be it a training programme or developing your website or 
+producing an animation work that our audience would love to 
+watch or restoring your internet breakdown and many more.<br>
+<br>
+As a company, Athang believes in the team work and democratic 
+working culture to bring the best of  every employees at 
+personal as well as professional level. 
+<br>
+As credential, Athang has been with  international organizations in 
+IT/software Services, professional training, and 3D animations.
+<br>
+As a company, Athang believes in the team work and democratic 
+working culture to bring the best of  every employees at 
+personal as well as professional level. <br>
+As credential, Athang has been with  international organizations in 
+IT/software Services, professional training, and 3D animations.</p>
+  </div>
+
+<br>
+<?php 
             include('footer.php')    
         ?>
 </body>

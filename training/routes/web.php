@@ -19,8 +19,8 @@ Route::get('/', function () {
 Route::get('announce', function () {
     return view('announcement');
 });
-Route::get('register', function () {
-    return view('registration');
+Route::get('services', function () {
+    return view('services');
 });
 Route::get('blog', function () {
     return view('blog');
