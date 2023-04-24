@@ -3,16 +3,28 @@
         <!--footer start-->
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo, sapien non semper facilisis, leo arcu aliquam velit, a vestibulum magna tellus in justo. </p>
-                </div>
-                <div class="col-md-6">
-                    <h3>Contact Us</h3>
+                <div class="col-md-4">
+                <h4>Athang learning Institute</h4>
                     <ul>
-                    <li><i class="fa fa-map-marker"></i> Bhutan,Thimphu,Babena</li>
-                    <li><i class="fa fa-phone"></i> (123) 456-7890</li>
-                    <li><i class="fa fa-envelope"></i> athang@gmail.com</li>
+                        <li><a href="/blog">blogs</a></li>
+                        <li><a href="/services">services</a></li>
+                        <li><a href="#">privacy</a></li>
+                    </ul>
+                </div> 
+                <div class="col-md-4">
+                    <h4>Comapny Address</h4>
+                    <ul>
+                        <li><i class="fa fa-map-marker"></i> Bhutan, Thimphu, Babena</li>
+                        <li><i class="fa fa-phone"></i> +975-17567890</li>
+                        <li><i class="fa fa-envelope"></i> athang@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Special links</h4>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
