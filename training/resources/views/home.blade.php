@@ -22,7 +22,7 @@
         <?php 
             include('nav.php') 
         ?>
-    
+
     <!----------------------------------------------image carousel-------------------------------------------------------->
     
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -45,18 +45,31 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-        </div>
-            
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-       </div>    
 </div>
-    <?php 
-        include('footer.php')    
-    ?>
+            
+      
+        <div class="card" style="width: 18rem; margin-left:80px;" >
+        <img src="ap.jpg" class="card-img-top" alt="..." height="150px;">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up the bulk of the card's content
+                Some quick example text to build on the card title and make up the bulk of the card's content</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-left:80px;" >
+        <img src="ap.jpg" class="card-img-top" alt="..." height="150px;">
+            <div class="card-body">
+                <h4 style="text-align:center;">Software solution</h2>
+                <p class="card-text">1.Project and portfollio management<br><br>
+                2.Testing and quality assurance<br><br>
+                3.Maintenance  and support
+            </p>
+            </div>
+        </div>
+
+        <?php 
+            include('footer.php')    
+        ?>
 </body>
 </html>
 
