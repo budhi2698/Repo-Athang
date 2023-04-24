@@ -69,23 +69,11 @@ nav {
   nav .dropdown a:hover {
     background-color: #666;
   }
-  
   nav li:hover .dropdown {
     display: block;
   }
   
-.cta {
-  display: inline-block;
-  background-color: #ff9800;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-}
 
-.cta:hover {
-  background-color: #f44336;
-}
 
 /* Course section styles */
 #courses {
