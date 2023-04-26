@@ -325,17 +325,16 @@ padding-top: 10px;
   width: 50%;
 }
 
-/* .squarre{
-  position:relative;
-  width: 450px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  margin-left: 80px;
-
+  .squarre{
+    position:relative;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    margin-left: 80px;
+  
+ 
 }
+
 .squarre span:nth-child(1){
 position: absolute;
 top: 0;
@@ -359,7 +358,7 @@ background-color: #4CAF50;
   border: 2px solid #000;
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   transition: 0.5s;
-  animation: animate 4s linear infinite;
+  animation: animate 5s linear infinite;
   background-color: #4CAF50;
   }
 
@@ -439,4 +438,4 @@ background-color: #4CAF50;
         transition: 0.5s;
         z-index:1000;
       }
-      */
+     

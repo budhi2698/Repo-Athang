@@ -27,7 +27,7 @@
             
         ?>
         <br>
- <!-- <b style="margin-left:670px">About Us</b>
+ <!-- <b style="display:flex; align-ite">About Us</b>
 <div class="boxc">
    
   <img src="athangb.jpg" class="athang">
@@ -49,9 +49,9 @@ producing an animation work that our audience<br> would love to
 watch or restoring your internet breakdown and many more.<br>
 <br>
 </p>
-  </div> -->
+  </div>
 
-<br>
+<br> -->
 
 <div class="squarre">
     <span></span>
