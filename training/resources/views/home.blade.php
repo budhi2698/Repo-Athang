@@ -55,39 +55,40 @@
        <br>   
        <br> 
     <!---------------------------------------------------CARD-------------------------------------------------------->
-    <h1 style="font-family:fantasy; text-align:center;">Services we Offer</h1><br>
+    <h1 style="font-family:fantasy; text-align:center;">Services we Offer</h1>
   
         <div class="containers">
             <div class="card">
-                <img src="ap.jpg">
+                <img src="solution.jpg">
                     <div class="contenido">
                         <h4>Software solution</h4>
-                         <p>1.project and Management<br>
-                         2.Testing and Quality assurance<br>
-                         3.Maintenance and support
-                         </p>
+                         <p>1. Project and Management </p>
+                         <p style="margin-left:29px">2. Testing and Quality assurance </p>
+                         <p>3. Maintenance and support </p>
+                        
                     </div>
             </div>
 
             <div class="card">
-                <img src="erp.jpg">
+                <img src="aup.jpg">
                     <div class="contenido">
                        <h4>3-D Animation</h4>
-                        <p>1.2-D Training services<br>
-                        2.3D module<br>
-                        3.Photoshop and adobe premier
-                        </p>
+                        <p>1. 2-D Animation Services</p>
+                        <p>2. 3D module Animation </p>
+                        <p style="margin-left:30px">3. Adobe photoshop and video</p>
+                      
                     </div>
             </div>
 
             <div class="card">
-                <img src="js.jpg">
+                <img src="dip.jpg">
                     <div class="contenido">
                         <h4>Technologies services</h4>
-                        <p>1.Diploma in Info technology<br>
-                        2.ERP system<br>
-                        3.Partnership of molhr
-                        </p>
+                        
+                        <p style="margin-right:19px">1. ERP monal system</p>
+                        <p>2. Partnership of MOLHR</p>
+                        <p style="margin-left:20px">3. Diploma in Info technology</p>
+                        
                     </div>
             </div>
         </div>
@@ -101,9 +102,75 @@
     </div>
     <br>
     <br>
+<!---------------------------------announcement ------>
+    <div class="annout">
+    <img  src="honk.webp" alt="" style=" height: 200px;
+      width: 230px;">Latest Announcement
+    </div>
+    <br>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span style="font-weight:bold;">Call for register for DevOps</span> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#">Read more </a><i class='fas fa-arrow-right'></i></p>
+<br>
 
+<!-------------------mini pic -------------------->
+<div class="wrapper">
+ 
+    <div class="cart">
+        <img src="logojob.jpg">
+            <div class="info">
+                <h1>Vacancy </h1>
+                <p>For Diploma trainer</p>
+                <a href="#" class="btn">Read More</a>
+           </div>
+    </div>
 
+    <div class="cart">
+        <img src="eccd.png">
+            <div class="info">
+                <h1>Register</h1>
+                <p> For Eccd</p>
+                <a href="#" class="btn">Read More</a>
+           </div>
+    </div>
 
+ 
+    <div class="cart">
+        <img src="diploma.jpg">
+            <div class="info">
+                <h1>Register</h1>
+                <p>For Diploma trainer(second batch)</p>
+                <a href="#" class="btn">Read More</a>
+           </div>
+    </div>
+
+</div>
+
+<!-- ------------------------------------------------------pic partnership----------------------------- -->
+<br>
+<br>
+<br>
+<br>
+    <div class="ship">
+        <div class="pic">
+            <img src="red.png" style="height:150px;
+            width:140px">
+        </div>
+
+        <div class="pic">
+            <img src="jaablogo.png"style="height:150px;
+            width:140px">
+        </div>
+        
+        <div class="pic">
+            <img src="download.png"style="height:150px;
+            width:140px">
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
 <?php 
             include('footer.php')    
         ?>

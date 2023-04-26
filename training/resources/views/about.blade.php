@@ -27,32 +27,33 @@
             
         ?>
         <br>
- <!-- <b style="display:flex; align-ite">About Us</b>
+ <b >About Us</b>
 <div class="boxc">
    
   <img src="athangb.jpg" class="athang">
     <p style="margin-left:50px">Athang is a pioneering software development and training 
-academy firm greatly driven by the information technology. 
-Athang strives for the excellence in offering our services, 
-be it a training programme or developing your website or 
-producing an animation work <br>
-that our audience would love to 
-watch or restoring your internet breakdown and many more.<br><br>
-As a company, Athang believes in the team work and democratic 
-working culture to bring the<br> best of  every employees at 
-personal as well as professional level. 
-As credential, Athang has<br> been with  international organizations in 
-IT/software Services, professional training, and<br> 3D animations.
-Athang strives for the excellence in offering our services, 
-be it a training <br>programme or developing your website or 
-producing an animation work that our audience<br> would love to 
-watch or restoring your internet breakdown and many more.<br>
-<br>
-</p>
+        academy firm greatly driven by the information technology. 
+        Athang strives for the excellence in offering our services, 
+        be it a training programme or developing your website or 
+        producing an animation work
+        that our audience would love to 
+        watch or restoring your internet breakdown and many more.</p>
+        <p>As a company, Athang believes in the team work and democratic 
+        working culture to bring the best of  every employees at 
+        personal as well as professional level. </p>
+        <p>As credential, Athang has been with  international organizations in 
+        IT/software Services, professional training, and 3D animations.
+        Athang strives for the excellence in offering our services, 
+        be it a training programme or developing your website or 
+        producing an animation work that our audience would love to 
+        watch or restoring your internet breakdown and many more.</p>
+
+
   </div>
 
-<br> -->
-
+<br>
+<br>
+<br>
 <div class="squarre">
     <span></span>
     <span></span>
@@ -75,5 +76,8 @@ watch or restoring your internet breakdown and many more.<br>
            solutions and services.</p>
 </div>
 </div>  
+<?php 
+            include('footer.php')    
+        ?>
 </body>
 </html>
