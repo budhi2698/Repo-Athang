@@ -14,17 +14,18 @@
                 <div class="col-md-4">
                     <h4>Comapny Address</h4>
                     <ul>
-                        <li><i class="fa fa-map-marker"></i> Bhutan, Thimphu, Babena</li>
-                        <li><i class="fa fa-phone"></i> +975-17567890</li>
-                        <li><i class="fa fa-envelope"></i> athang@gmail.com</li>
+                        <li><i class="fa fa-home"></i> Babena,Thimphu,Bhutan</li>
+                        <li><i class="fa fa-phone"></i> +975-17115890</li>
+                        <li><i class="fa fa-envelope"></i> info@athang.com</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h4>Special links</h4>
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <ul> 
+                        <li><a href="https://athang.com/public/w"><i class="fa-solid fa-globe"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100057108984264"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></i></a></li>
+                       
                     </ul>
                 </div>
             </div>

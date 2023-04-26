@@ -55,7 +55,7 @@
        <br>   
        <br> 
     <!---------------------------------------------------CARD-------------------------------------------------------->
-    <h1 style="font-family:fantasy; text-align:center;">Services we Offer</h1>
+    <h1 style="font-family:cambay; text-align:center;">Services we Offer</h1>
   
         <div class="containers">
             <div class="card">
