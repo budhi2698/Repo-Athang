@@ -103,41 +103,7 @@
     <br>
 
 
-  <div class="boxc">
-  <img src="athangb.jpg" class="athang">
-    <p style="padding-left:20px;">Athang is a pioneering software development and training 
-academy firm greatly driven by the information technology. 
-<br>
-Athang strives for the excellence in offering our services, 
-be it a training programme or developing your website or 
-producing an animation work that our audience would love to 
-watch or restoring your internet breakdown and many more.<br><br>
-As a company, Athang believes in the team work and democratic 
-working culture to bring the best of  every employees at 
-personal as well as professional level. 
-As credential, Athang has been with  international organizations in 
-IT/software Services, professional training, and 3D animations.
-<br>
-Athang strives for the excellence in offering our services, 
-be it a training programme or developing your website or 
-producing an animation work that our audience would love to 
-watch or restoring your internet breakdown and many more.<br>
-<br>
-As a company, Athang believes in the team work and democratic 
-working culture to bring the best of  every employees at 
-personal as well as professional level. 
-<br>
-As credential, Athang has been with  international organizations in 
-IT/software Services, professional training, and 3D animations.
-<br>
-As a company, Athang believes in the team work and democratic 
-working culture to bring the best of  every employees at 
-personal as well as professional level. <br>
-As credential, Athang has been with  international organizations in 
-IT/software Services, professional training, and 3D animations.</p>
-  </div>
 
-<br>
 <?php 
             include('footer.php')    
         ?>

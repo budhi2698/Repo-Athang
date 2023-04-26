@@ -26,16 +26,54 @@
             include('nav.php')
             
         ?>
+        <br>
+ <!-- <b style="margin-left:670px">About Us</b>
+<div class="boxc">
+   
+  <img src="athangb.jpg" class="athang">
+    <p style="margin-left:50px">Athang is a pioneering software development and training 
+academy firm greatly driven by the information technology. 
+Athang strives for the excellence in offering our services, 
+be it a training programme or developing your website or 
+producing an animation work <br>
+that our audience would love to 
+watch or restoring your internet breakdown and many more.<br><br>
+As a company, Athang believes in the team work and democratic 
+working culture to bring the<br> best of  every employees at 
+personal as well as professional level. 
+As credential, Athang has<br> been with  international organizations in 
+IT/software Services, professional training, and<br> 3D animations.
+Athang strives for the excellence in offering our services, 
+be it a training <br>programme or developing your website or 
+producing an animation work that our audience<br> would love to 
+watch or restoring your internet breakdown and many more.<br>
+<br>
+</p>
+  </div> -->
 
-    <section id="hero">
-        <h1>Welcome to our Training Academy</h1>
-        <p>We offer a wide range of courses to help you achieve your career goals.</p>
-        <a href="#" class="cta">Enroll Now</a>
-    </section>
+<br>
 
-        <?php 
-            include('footer.php')
-            
-        ?>
+<div class="squarre">
+    <span></span>
+    <span></span>
+    <span></span>
+    <div class="contents">
+        <h3 style="text-align:center">VISION:</h3>
+        <p>To contribute in lifting the services level for the professional trainings,animations and the growth of private sector of Bhutan by 
+           providing high quality and innovative enabled 
+           solutions and services.</p>
+</div>
+</div>  
+<div class="squarres">
+    <span></span>
+    <span></span>
+    <span></span>
+    <div class="contentss">
+        <h3 style="text-align:center">MISSION:</h3>
+        <p>To contribute in lifting the services level for the professional trainings,animations and the growth of private sector of Bhutan by 
+           providing high quality and innovative enabled 
+           solutions and services.</p>
+</div>
+</div>  
 </body>
 </html>
