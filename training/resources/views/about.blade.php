@@ -14,6 +14,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
             <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
             <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -22,62 +23,98 @@
 
     </head>
     <body class="antialiased">
+
         <?php 
             include('nav.php')
             
         ?>
-        <br>
- <b >About Us</b>
-<div class="boxc">
-   
-  <img src="athangb.jpg" class="athang">
-    <p style="margin-left:50px">Athang is a pioneering software development and training 
-        academy firm greatly driven by the information technology. 
-        Athang strives for the excellence in offering our services, 
-        be it a training programme or developing your website or 
-        producing an animation work
-        that our audience would love to 
-        watch or restoring your internet breakdown and many more.</p>
-        <p>As a company, Athang believes in the team work and democratic 
-        working culture to bring the best of  every employees at 
-        personal as well as professional level. </p>
-        <p>As credential, Athang has been with  international organizations in 
-        IT/software Services, professional training, and 3D animations.
-        Athang strives for the excellence in offering our services, 
-        be it a training programme or developing your website or 
-        producing an animation work that our audience would love to 
-        watch or restoring your internet breakdown and many more.</p>
+
+    <br>
+
+       <div class="boxc">
+       <img src="athangb.jpg" class="athang" >
+      
+
+            <p style="margin-left:70px;background-color: #444;color:white;border-radius:25px;padding:45px">Athang is a pioneering software development and training 
+                academy firm greatly driven by the <br>information technology.
+                Athang strives for the excellence in offering our services, 
+                be it a training <br>programme or developing your website or 
+                producing an animation work that our audience <br>would love to 
+                watch or restoring your internet breakdown and many more.<br><br>
+                As a company, Athang believes in the team work and democratic 
+                working culture to bring the<br> best of  every employees at 
+                personal as well as professional level. 
+                As credential, Athang has<br> been with  international organizations in 
+                IT/software Services, professional training, and<br> 3D animations.<br><br>
+                Athang strives for the excellence in offering our services, 
+                be it a training programme or <br>developing your website or 
+                producing an animation work that our audience<br> would love to 
+                watch or restoring your internet breakdown and many more.<br>
+            </p>
+        </div>
+<br>
 
 
-  </div>
+<!--------------------------------------------TEAM--------------------------------------------------->
+<section class="about_section" id="About">
+        <div class="about_img">
+            <img src="ceo.jpg" alt="">
+        </div>
+        <div class="about_details">
+            <h1>About Me</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae ipsam voluptas perspiciatis voluptatum magnam fugit deleniti, dolorem rerum excepturi quasi! <br><br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore consectetur quidem animi at debitis.</p>
+            <div class="btns">
+                <a href="#" class="btn btn1">HIRE ME</a>
+                <a href="#" class="btn btn2">DOWNLOAD CV</a>
+            </div>
+        </div>
+    </section>
 
-<br>
-<br>
-<br>
+
+
+
+
+<!-----------------------------------------------------round animation--------------------------------------------------------------->
 <div class="squarre">
-    <span></span>
-    <span></span>
-    <span></span>
-    <div class="contents">
-        <h3 style="text-align:center">VISION:</h3>
-        <p>To contribute in lifting the services level for the professional trainings,animations and the growth of private sector of Bhutan by 
-           providing high quality and innovative enabled 
-           solutions and services.</p>
-</div>
-</div>  
-<div class="squarres">
-    <span></span>
-    <span></span>
-    <span></span>
-    <div class="contentss">
-        <h3 style="text-align:center">MISSION:</h3>
-        <p>To contribute in lifting the services level for the professional trainings,animations and the growth of private sector of Bhutan by 
-           providing high quality and innovative enabled 
-           solutions and services.</p>
-</div>
-</div>  
-<?php 
-            include('footer.php')    
-        ?>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="contents">
+                <h3 style="text-align:center">VISION:</h3>
+                <p>To contribute in lifting the services level for the professional trainings,animations and the growth of private sector of Bhutan by 
+                providing high quality and innovative enabled 
+                solutions and services.</p>
+            </div>
+        </div>  
+
+        <div class="squarres">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="contentss">
+                <h3 style="text-align:center">MISSION:</h3>
+                <p>To contribute in lifting the services level for the professional trainings,animations and the growth of private sector of Bhutan by 
+                providing high quality and innovative enabled 
+                solutions and services.</p>
+            </div>
+        </div>  
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------------------------------FOOTER-------------------------------------------->
+
+    <?php 
+        include('footer.php')     
+    ?>
+
 </body>
 </html>
