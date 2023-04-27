@@ -26,12 +26,28 @@
             
         ?>
 
-    <section id="hero">
-        <h1>Welcome to our Training Academy</h1>
-        <p>We offer a wide range of courses to help you achieve your career goals.</p>
-        <a href="#" class="cta">Enroll Now</a>
-    </section>
+<div class="contact-wrap">
+            <ul class="contact-in">
+                <h1>Contact info</h1>
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Babena,Thimphu: Bhutan</p>
+                </li>
 
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p><a href="https://athang.com/public/w/contactus">info@athang.com</a></p>
+                </li>
+            </ul>
+      
+        <!--Grid column-->
+        <div class="map">
+            <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56638.991505234!2d89.5576864486328!3d27.471221600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e1958b0fdbbf2f%3A0x6ad2ba8a60502b3e!2sAthang%20Learning%20Institute!5e0!3m2!1sen!2sbt!4v1682591538853!5m2!1sen!2sbt" width="600" height="450" style="border:0;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
      <?php 
          include('footer.php')
     ?>

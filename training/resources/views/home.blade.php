@@ -13,12 +13,15 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <!-- <script src="script.js"></script> -->
+
+  
 
     </head>
     <body>          
@@ -54,6 +57,34 @@
     </div>
        <br>   
        <br> 
+       <!---------------------------------announcement ------>
+       <div class="as">
+
+            <div>
+               <img src="athangb.jpg" alt="Image 1">   
+            </div>
+            <div>
+               <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for 
+               Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
+               Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
+               Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program <br>
+               <br>
+               Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
+               Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
+               Athang Training Academy is pleased to announce the 2nd batch training on  Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
+               Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
+               Athang Training Academy is pleased to announce the 2nd batch training on <br></p> 
+            </div>
+    </div>
+<br>
+<!---------------------------------details ---------------->
+<div class="box">
+        <h2 class="bols">Since 2005</h2>
+        <p style="text-align:center; color:#fff;padding:30px;">Based in Thimphu, 
+        Bhutan with aim of changing demand of customers in field of ICT</p>
+    </div>
+    <br>
+    <br>
     <!---------------------------------------------------CARD-------------------------------------------------------->
     <h1 style="font-family:cambay; text-align:center;">Services we Offer</h1>
   
@@ -94,58 +125,52 @@
         </div>
     <br>
 
-<!---------------------------------details ---------------->
-    <div class="box">
-        <h2 class="bols">Since 2005</h2>
-        <p style="text-align:center; color:#fff;padding:30px;">Based in Thimphu, 
-        Bhutan with aim of changing demand of customers in field of ICT</p>
-    </div>
-    <br>
-    <br>
-<!---------------------------------announcement ------>
-    <div class="annout">
-    <img  src="honk.webp" alt="" style=" height: 200px;
-      width: 230px;">Latest Announcement
-    </div>
-    <br>
-<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <span style="font-weight:bold;">Call for register for DevOps</span> &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#">Read more </a><i class='fas fa-arrow-right'></i></p>
-<br>
+
+
 
 <!-------------------mini pic -------------------->
-<div class="wrapper">
- 
-    <div class="cart">
-        <img src="logojob.jpg">
-            <div class="info">
-                <h1>Vacancy </h1>
-                <p>For Diploma trainer</p>
-                <a href="#" class="btn">Read More</a>
-           </div>
-    </div>
 
-    <div class="cart">
-        <img src="eccd.png">
-            <div class="info">
-                <h1>Register</h1>
-                <p> For Eccd</p>
-                <a href="#" class="btn">Read More</a>
-           </div>
-    </div>
-
- 
-    <div class="cart">
-        <img src="diploma.jpg">
-            <div class="info">
-                <h1>Register</h1>
-                <p>For Diploma trainer(second batch)</p>
-                <a href="#" class="btn">Read More</a>
-           </div>
-    </div>
-
+    
+           <div class="te" style="text-align:center; font-weight:bold">Latest Announcement</div>
+          <br>
+      
+<!-- vertical -->
+<div class="timeline">
+  <ul>
+    <li>
+      <div class="content">
+        <h3>Register</h3>
+        <p><a href="#">For Diploma</a></p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>May 15th 2023</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>Vacancy</h3>
+        <p><a href="#">For Diploma Trainer</a></p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>May 15th 2023</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>Training sponser by GovTech</h3>
+        <p><a href="#">DevOps</a></p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>2022</h4>
+      </div>
+    </li>
+  </ul>
 </div>
 
+   
 <!-- ------------------------------------------------------pic partnership----------------------------- -->
 <br>
 <br>
