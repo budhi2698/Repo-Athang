@@ -966,12 +966,7 @@ opacity: 5%;
             text-align: justify;
           }
           
-          img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
-          }
+
     /*--------------------------------------------------------- about-us-team------------------------------------------------------------- */
     @font-face {
       font-family: pop;
