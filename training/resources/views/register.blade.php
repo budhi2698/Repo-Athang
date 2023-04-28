@@ -12,7 +12,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h4>Student Registration Form<a href="home.html" class="btn btn-danger float-end">BACK</a></h4>
+                    <h4>Student Registration Form<a href="/" class="btn btn-danger float-end">BACK</a></h4>
                 </div>
                 <div class="card-body">
                     <form  method="POST">
