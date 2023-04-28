@@ -659,7 +659,7 @@ opacity: 10%;
         animation: fadeInUp 1s ease;
       }
       
-      .content, .content2, .content3, .content4 {
+      .content1, .content2, .content3, .content4 {
         width: 45%;
         padding: 10px;
         margin: 10px;
@@ -684,7 +684,7 @@ opacity: 10%;
         /* background-color: #aeb0b3; */
         border-radius: 40px 0px 40px 0px;
       }
-      .content:hover, .content2:hover, .content3:hover, .content4:hover {
+      .content1:hover, .content2:hover, .content3:hover, .content4:hover {
         box-shadow: 0px 0px 10px #888888;
         transform: translateY(-5px);
         /* transition: box-shadow 1s ease, transform .1s ease; */
@@ -699,35 +699,8 @@ opacity: 10%;
           transform: translateY(0px);
         }
       }
-      
-      .pop {
-        position: absolute;
-        top: -30px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #FFFFFF;
-        padding: 10px;
-        border-radius: 5px;
-        box-shadow: 0px 0px 5px #888888;
-        opacity: 0;
-        transition: opacity 5s ease;
-      }
-      
-      .content:hover .pop {
-        opacity: 0;
-      }
-      h1 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-bottom: 10px;
-      }
-      
-      p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: justify;
-      }
+  
+ 
       
      /* ----------------------------about------------------ */
      .athang{

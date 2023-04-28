@@ -31,7 +31,7 @@
         <h3>Annoucement/News</h3>
     </div>
     <div class="anncontainer">
-        <div class="content bg-register">
+        <div class="content1 bg-register">
             <h1>Diploma 2nd Batch Registration</h1>
             <img src="image1.jpg" alt="Image 1"> 
             <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
