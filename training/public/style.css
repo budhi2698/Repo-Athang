@@ -40,7 +40,6 @@ nav {
     transform: translateX(50%);
     transition: all 600ms ease;
   }
-  
   nav li {
     margin: 0 10px;
     position: relative;
@@ -49,7 +48,6 @@ nav {
     transition: all 600ms ease;
 
   }
-  
   nav a {
     display: block;
     padding: 10px;
@@ -59,10 +57,9 @@ nav {
   }
   nav ul li a:hover{
     color: rgb(209, 9, 9);
-    padding-left: 8px;
+    padding-left: 6px;
 }
  
-
 /*------------------------------------------------Services-section-css---------------------------------*/
 #servics{
   padding: 0;
