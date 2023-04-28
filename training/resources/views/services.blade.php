@@ -22,6 +22,7 @@
         <?php 
             include('nav.php') 
         ?>
+
         <section id=servics>
             <h2>Our Services</h2>
             <p>Athang plays a vital lead role in the ever changing ICT scenario in Bhutan. With our team of professional expertise 
@@ -30,10 +31,41 @@
                 interesting projects starting from a simple website to many complex systems. And the recent achievement would be 
                 the development and successful rollout of an Enterprise Resource Planning system.
             </p>
+
+            <div class="serviceprovider"> 
+                <div class="cols">
+                    <h1>Dilopma in IT</h1>
+                    <div class="icons">
+                        <i class="fa-solid fa-graduation-cap"></i></a>
+                    </div>
+                
+                    <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for 20 slots for a duration of 6 months </p>
+                </div>
+                <div class="cols">
+                    <h1>Customer Relationship</h1>
+                    <div class="icons">
+                         <i class="fa-solid fa-handshake"></i> 
+                    </div>
+                  
+                    <p>It uses data analysis about customers' history with a company to improve business relationships with customers, 
+                        specifically focusing on customer retention and ultimately driving sales growth.</p>
+                </div>
+               
+                <div class="cols">
+                    <h1>Maintenance & Support</h1>
+                    <div class="icons">
+                       <i class="fa fa-hands-holding-child"></i>  
+                    </div>
+                    <p>Whether you need additional support in terms of troubleshooting software anomalies or run into a bug that hinders your team 
+                      from getting their work done in a timely fashion, our support team is standing by to lend a hand.</p>
+                </div>
+               
+            </div>
         </section>
 
-        <section id="courses">                                  
-            <h2>Courses</h2>
+            <section id="courses">                                  
+                <h2>Courses</h2>
+            </section>    
             <div class="servicecontainer">
                 <div class="colum">
                     <h1>Web Development</h1>
@@ -66,12 +98,23 @@
                     <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for a duration of 6 months supported by</p>
                 </div>
             </div>
-        </section>
+      
          <section id="regis">
              <div class="click">
                <a href="register">Register here..</a>
             </div>  
          </section>
+
+         <!-- <section id=facilities>
+               <h2>Facilities</h2>
+                <p></p>
+         </section>
+         <div>
+            <div>
+                <img src="" alt="">
+                <a href=""></a>
+            </div>
+         </div> -->
     <?php 
             include('footer.php')    
     ?>

@@ -3,6 +3,10 @@
         <!--footer start-->
         <div class="container">
             <div class="row">
+                <!-- <div class="col-md-4">
+                <h4>Athang learning Institute</h4>
+                    <img src="footlogo.png" alt="">
+                </div>  -->
                 <div class="col-md-4">
                 <h4>Athang learning Institute</h4>
                     <ul>

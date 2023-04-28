@@ -67,13 +67,18 @@ nav {
 #servics{
   padding: 0;
   margin: 0;
-  animation: fadeIn 3s ease-in;
+  animation: fadeIn 1s ease-in;
+  background-color: #faf8f8d7;
 }
 #servics h2{
   font-family: cambay;
   text-align: center;
   font-weight: bold;
   padding: 10px;
+  cursor: pointer;
+}
+#servics h2:hover{
+  color: rgb(145, 35, 35);
 }
 #servics p{
   /* font-family: pop; */
@@ -91,18 +96,65 @@ nav {
     transform: translateY(0px);
   }
 }
-#courses {
-  background-color: #f2f2f2;
-  padding: 0;
+
+.serviceprovider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cols {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(255, 251, 248);
+  transition: transform 0.4s ease-in;
+  border-radius: 20px;
+  cursor: pointer;
+  /* position: relative;
+  flex: 0 100% 0; */
 }
 
+.cols:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 5px #807c7c;
+}
+
+.cols h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: cambay;
+}
+.cols h1:hover{
+  color: rgb(145, 35, 35);
+}
+.cols p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  /* font-family: pop; */
+  text-align: justify;
+}
+.icons{
+  text-align: center;
+  padding: 10px;
+  font-size: larger;
+}
+/*--------------------------------------------------course-css--------------------------------*/
+#courses {
+  background-color: #fff;
+  padding: 0;
+}
 #courses h2 {
   font-family: cambay;
   text-align: center;
   font-weight: bold;
   padding: 10px;
 }
-
+#courses h2:hover{
+  color: rgb(145, 35, 35);
+}
 .servicecontainer {
   display: flex;
   flex-wrap: wrap;
@@ -132,6 +184,9 @@ nav {
   text-align: center;
   font-family: cambay;
 }
+.colum h1:hover{
+  color: rgb(145, 35, 35);
+}
 .colum img {
   width: 100%;
   height: auto;
@@ -147,18 +202,23 @@ nav {
 }
 /*-----------------------------------------------Register-here-css---------------------------------------*/
 #regis{
-  margin: auto;
   padding: 0;
-  text-align: center;
-  width: 200px;
-  border: 0.4px solid grey;
-  padding: 10px;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  background-color: #30bfeb;
+  background-color:#fff;
+  width: 100%;
+  height: auto;
 }
 .click{
-  display: block;
+  display: block;  
+  margin: auto;
+  text-align: center;
+  width: 200px;
+  height: auto;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ 
+  /* background-color: #e2eaec; */
 }
 .click a{
   border: none;
@@ -168,10 +228,13 @@ nav {
   text-decoration: none;
   color: #070707;
   }
-  .click a:hover{
-  color: #034a57!important;
+  .click:hover{
+    box-shadow: 0px 0px 5px #807c7c;
   }
-/*------------------------------------------------footer section--------------------------------------*/
+  .click a:hover{
+    color: rgb(145, 35, 35);
+  }
+/*------------------------------------------------footer-section--------------------------------------*/
 footer {
     background-color: #2c2b2b;
     padding: 30px;
@@ -184,11 +247,16 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align:justify;
-    
   }
-  /*----------------------------------------------Athang-Training section--------------------------------*/  
+  /* .col-md-4 img{
+    display: flex;
+    width: 250px;
+    height: auto;
+    flex-direction: row;
+  } */
+  /*----------------------------------------------Athang-Training-section--------------------------------*/  
   ul {
     list-style: none;
     padding: 0;
