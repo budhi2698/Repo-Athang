@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <title>Register</title>
+    <!-- url img -->
+    <link rel="icon" type="image/png" href="logo_nav.png" width="32" height="32" />
+    <link rel="icon" type="image/png" href="logo_nav.png" width="16" height="16" />
+    <!-- end -->
 </head>
 <body>
     <div class="row">

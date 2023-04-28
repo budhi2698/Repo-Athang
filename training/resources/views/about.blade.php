@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>About</title>
+        <!-- url img -->
+        <link rel="icon" type="logo_nav.png" href="logo_nav.png">
+        <link rel="icon" type="logo_nav.png" href="logo_nav.png">
+        <!-- end -->
         
         <!-- FontsAwosome link -->
         <link rel="stylesheet" href="font-awesome/font-awesome.css">
@@ -26,14 +30,9 @@
     <body class="antialiased">
 
         <?php 
-            include('nav.php')
-            
+            include('nav.php')    
         ?>
-
     <br>
-
-      
-
 <!--------------------------------------------TEAM--------------------------------------------------->
 <section class="about_section" id="About">
         <div class="about_img">

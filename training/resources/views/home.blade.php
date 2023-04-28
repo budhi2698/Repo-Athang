@@ -4,8 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Home</title>
+      <!-- url img -->
+      <link rel="icon" type="image/png" href="logo_nav.png" width="128" height="128" />
+      <link rel="icon" type="image/png" href="logo_nav.png" width="128" height="128" />
 
+
+      <!-- end -->
        <!-- FontsAwosome link -->
         <link rel="stylesheet" href="font-awesome/font-awesome.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
@@ -20,8 +25,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <!-- <script src="script.js"></script> -->
-
-  
 
     </head>
     <body>          
