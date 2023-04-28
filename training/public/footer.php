@@ -24,7 +24,7 @@
                     <ul> 
                         <li><a href="https://athang.com/public/w"><i class="fa-solid fa-globe"></i></a></li>
                         <li><a href="https://www.facebook.com/profile.php?id=100057108984264"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></i></a></li>
+                        <li><a href="https://athang.com/public/w"><i class="fab fa-linkedin-in"></i></a></li>
                        
                     </ul>
                 </div>

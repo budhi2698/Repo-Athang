@@ -1,9 +1,11 @@
 <header><!--nav start-->
-        <nav> 
-        <div class="logo-container">
-            <img src="logo_nav.png" alt="Logo">
-            <h4>Athang Learning Institute</h4>
-        </div>
+        <nav>    
+              <div class="logo-container">
+                <img src="logo_nav.png" alt="Logo">
+                <a href="https://athang.com/public/w">
+               <h4>Athang Learning Institute</h4> </a>
+        </div> 
+   
             <ul>  
                 <li><a href="/">Home</a></li>
                 <li><a href="/announce">Announcement</a></li>
