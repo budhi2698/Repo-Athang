@@ -59,8 +59,8 @@
             Phone : +975 17110989</p>
             <div class="team-social">
             <a href="https://athang.com/public/w" class="social-tw"> <i class="fab fa-twitter"></i></a>
-            <a href="https://athang.com/public/w" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-            <a href="https://athang.com/public/w" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://athang.com/public/w" class="social-fb"> <i class="fab fa-facebook-f"  style="margin-left:20px"></i></a>
+            <a href="https://athang.com/public/w" class="social-li"> <i class="fab fa-linkedin-in"  style="margin-left:20px"></i></a>
         </div>
         </div>
     </section>
