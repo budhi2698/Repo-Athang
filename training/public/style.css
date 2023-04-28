@@ -26,7 +26,7 @@ nav {
     padding: 0;
 }
 .logo-container a h4:hover{
-  color: seashell;
+  color: rgb(145, 35, 35);
 }
   nav ul {
     display: flex;
