@@ -651,12 +651,14 @@ opacity: 5%;
       padding: 10px;
       margin-bottom: 20px;
       text-align: center;
+      font-family: cambay;
       }
+
       .anncontainer {
         display: flex;
         flex-wrap: wrap;
         justify-content:space-evenly;
-        animation: fadeInUp 2s ease;
+        animation: fadeInUp 1s ease;
       }
       
       .content, .content2, .content3, .content4 {
@@ -665,8 +667,7 @@ opacity: 5%;
         margin: 10px;
         background-color: #FFFFFF;
         border-radius: 5px;
-        box-shadow: 0px 0px 5px #888888;
-        animation: fadeIn 2s ease;
+        /* box-shadow: 0px 0px 5px #888888; */
         margin-bottom: 10px;
       }
       .bg-register {
@@ -688,7 +689,7 @@ opacity: 5%;
       .content:hover, .content2:hover, .content3:hover, .content4:hover {
         box-shadow: 0px 0px 10px #888888;
         transform: translateY(-5px);
-        transition: box-shadow 0.5s ease, transform 0.10s ease;
+        /* transition: box-shadow 1s ease, transform .1s ease; */
       }
       @keyframes fadeInUp{
         0%{
