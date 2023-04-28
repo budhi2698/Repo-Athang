@@ -16,11 +16,11 @@
                 </div>
                 <div class="card-body">
                     <form  method="POST">
-                        <div class="mb-3">
+                        <div class="mb-3 md-6">
                             <label>Name</label>
                             <input type="text" name="name" class="form-control">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3 md-6">
                             <label>DoB</label>
                             <input type="number" name="bob" class="form-control">
                         </div>
@@ -42,7 +42,7 @@
                         </div>
                         <div class="mb-3">
                             <label>Email</label>
-                            <input type="email" name="email" class="form-control">
+                            <input type="email" name="email" class="form-control" placeholder="@gmail.com">
                         </div>
                         <div class="mb-3">
                             <label for="exampleDataList" class="form-label">Choose Course</label>
@@ -53,11 +53,11 @@
                             </datalist> 
                         </div>
                         <div class="mb-3">
-                            <label for="chooseCourse" class="form-label">Choose Course</label>
-                            <input class="form-control" list="datalistOptions" id="chooseCourse" placeholder="...">
+                            <label for="chooseCourse" class="form-label">Course Duration</label>
+                            <input class="form-control" list="datalistOptions" id="chooseCourse" placeholder="Course duration">
                             <datalist id="datalistOptions">
-                                <option value="Dilopma in ICT">
-                                <option value="ECCD">
+                                <option value="Two years for Dilopma">
+                                <option value="Six month for ECCD">
                             </datalist> 
                         </div>
                         <div class="form-check">
