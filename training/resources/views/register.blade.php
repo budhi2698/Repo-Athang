@@ -54,8 +54,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="chooseCourse" class="form-label">Course Duration</label>
-                            <input class="form-control" list="datalistOptions" id="chooseCourse" placeholder="Course duration">
-                            <datalist id="datalistOptions">
+                            <input class="form-control" list="listOptions" id="chooseCourse" placeholder="Course duration">
+                            <datalist id="listOptions">
                                 <option value="Two years for Dilopma">
                                 <option value="Six month for ECCD">
                             </datalist> 
