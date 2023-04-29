@@ -31,3 +31,9 @@ Route::get('contact', function () {
 Route::get('register', function () {
     return view('register');
 });
+Route::get('vacancy', function () {
+    return view('vacancy');
+});
+Route::get('training', function () {
+    return view('training');
+});
