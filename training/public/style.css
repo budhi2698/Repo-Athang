@@ -14,8 +14,9 @@ nav {
     width: 30%;
 }
 .logo-container img {
-    height: 70px;
-    cursor: pointer;
+  height: 2cm;
+  cursor: pointer;
+  padding: 5px 0px 5px 10px;
 }
 .logo-container h4 {
     font-size: 24px;

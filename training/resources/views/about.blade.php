@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>About</title>
+        <title>Athang Learning Institute/home</title>
         <!-- url img -->
-        <link rel="icon" type="logo_nav.png" href="logo_nav.png">
-        <link rel="icon" type="logo_nav.png" href="logo_nav.png">
-        <!-- end -->
+        <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
+        <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
+       <!-- end -->
         
         <!-- FontsAwosome link -->
         <link rel="stylesheet" href="font-awesome/font-awesome.css">

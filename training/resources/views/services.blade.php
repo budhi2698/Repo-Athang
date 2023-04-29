@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Services</title>
-             <!-- url img -->
-                <link rel="icon" type="logo_nav.png" href="logo_nav.png">
-                <link rel="icon" type="logo_nav.png" href="logo_nav.png">
-           <!-- end -->
+        <title>Athang Learning Institute/home</title>
+        <!-- url img -->
+        <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
+        <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
+       <!-- end -->
         <link rel="stylesheet" href="style.css">
 
         <!-- FontsAwosome link -->

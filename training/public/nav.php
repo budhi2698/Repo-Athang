@@ -1,7 +1,7 @@
 <header><!--nav start-->
         <nav>    
               <div class="logo-container">
-                <img src="logo_nav.png" alt="Logo">
+                <img src="logonav.jpg" alt="Logo">
                 <a href="https://athang.com/public/w">
                <h4>Athang Learning Institute</h4> </a>
         </div> 
