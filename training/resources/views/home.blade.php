@@ -117,39 +117,38 @@
          
     <!-----------------------------------------------------VERTICAL------------------------------------------------>
     <div class="timeline">
-      <ul>
-        <li>
-          <div class="content">
-            <h3>Register</h3>
-            <p><a href="#">For Diploma</a></p>
-          </div>
-          <div class="point"></div>
-          <div class="date">
-            <h4>May 15th 2023</h4>
-          </div>
-        </li>
-        <li>
-          <div class="content">
-            <h3>Vacancy</h3>
-            <p><a href="/vacancy">For Diploma Trainer</a></p>
-          </div>
-          <div class="point"></div>
-          <div class="date">
-            <h4>May 15th 2023</h4>
-          </div>
-        </li>
-        <li>
-          <div class="content">
-            <h3>Training sponser by GovTech</h3>
-            <p><a href="/training">DevOps</a></p>
-          </div>
-          <div class="point"></div>
-          <div class="date">
-            <h4>2022</h4>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li>
+        <div class="content">
+          <h3>Register</h3>
+          <p><a href="#">For Diploma</a></p>
+        </div>
+        <div class="point"></div>
+        <div class="date">
+          <h4>May 15th 2023</h4>
+        </div>
+      </li>
+      <li>
+        <div class="content">
+          <h3>Vacancy</h3>
+        <?php include ("content/homean/vaca.html");?>
+        </div>
+        <div class="point"></div>
+        <div class="date">
+          <h4>May 15th 2023</h4>
+        </div>
+      </li>
+      <li>
+        <div class="content">
+        <?php include ("content/homean/training.html");?>
+        </div>
+        <div class="point"></div>
+        <div class="date">
+          <h4>2022</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
     <!-- -----------------------------------------------------PARTNERSHIP-LOGO------------------------------------------->
     <div class="ship">
       <div class="pic">

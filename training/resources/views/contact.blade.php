@@ -48,9 +48,7 @@
             </ul>
             <!----------------------------------------------------GRID-COLUMN------------------------------------------>
             <div class="map">
-                <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56638.991505234!2d89.5576864486328!3d27.471221600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e1958b0fdbbf2f%3A0x6ad2ba8a60502b3e!2sAthang%20Learning%20Institute!5e0!3m2!1sen!2sbt!4v1682591538853!5m2!1sen!2sbt" width="600" height="450" style="border:0;" allowfullscreen="" 
-                  loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28315.969704741863!2d89.62003273671898!3d27.484939304594146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e1943d9df45cc3%3A0x14944eaf62ce3e40!2sAthang%20Training%20Academy!5e0!3m2!1sen!2sbt!4v1683106597991!5m2!1sen!2sbt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <!------------------------------------------------------FOOTER------------------------------------------------>
