@@ -44,7 +44,7 @@
                 <div class="cols">
                     <h1> Academic Programs</h1>
                     <div class="icons">
-                        <i class="fa-solid fa-graduation-cap"></i></a>
+                        <i class="fa-solid fa-graduation-cap"></i>
                     </div>
                     <p>Learning institutes typically offer various 
                         academic programs such as undergraduate and graduate degrees, 
@@ -53,7 +53,7 @@
                 <div class="cols">
                     <h1>Professional Development</h1>
                     <div class="icons">
-                         <i class="fa-sharp fa-solid fa-user-tie-hair"></i> 
+                        <i class="fa-solid fa-user-tie"></i>
                     </div>
                     <p>Learning institutes also provide training and development opportunities for professionals who want to enhance their skills and knowledge
                          in specific areas like leadership, project management, data analysis, communication, and more.</p>
@@ -61,7 +61,7 @@
                 <div class="cols">
                     <h1>Research Facilities</h1>
                     <div class="icons">
-                       <i class="fa fa-hands-holding-child"></i>  
+                    <i class="fa-solid fa-globe"></i>
                     </div>
                     <p>Many learning institutes have research facilities 
                     such as laboratories, observatories, and libraries that support 
@@ -107,19 +107,17 @@
             </div>
         </div>
         <!-------------------------------------------------LINK-REGISTER-PAGE-------------------------------------------->
-        <section id="regis">
-            <div class="click">
-                 <a href="register">Register here..</a>
-            </div>  
-        </section>
-        <!------------------------------------------------- Lesson plan---------------------- -->
-     <div class="plan">
-        <p style="text-align:center;">A lesson plan for Teachers</p>
+        <div class="mycon">
+                <div class="click">
+                    <a href="register">Register here..</a>
+                </div>    
+                <div class="plan">
+                    <a href="lesson"name="save">Lesson plan </a>
+                </div>
         </div>
-                            <div class="mb-3 py-3">
-                            <a href="lesson"name="save" class="btn btn-primary">Lesson plan </a>
-                            </div>
-       </div>
+
+        <!------------------------------------------------- Lesson plan---------------------- -->
+  
         <!---------------------------------------------------FOOTER-----------------------------------------------------> 
         <?php 
             include('footer.php')    

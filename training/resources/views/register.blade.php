@@ -15,7 +15,7 @@
     </head>
     <body>
     <div class="row py-5">
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-12 mx-auto">
                 <div class="card">
                     <div class="card-header col-md-12">
                         <h4>Student Registration Form<a href="/" class="btn btn-danger float-end">BACK</a></h4>
@@ -41,36 +41,35 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-12">
-                                            <div class="mb-3">
-                                                <label>Gender</label>
-                                            </div>
+                                                <div>
+                                                    <label>Gender</label>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
-                                                <label class="form-check-label" for="male">Male</label>
+                                                <div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
+                                                        <label class="form-check-label" for="male">Male</label>
+                                                    </div>
                                                 </div>
-                                            </div>
                                             </div>
                                             <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="gender" id="female" value="female" checked>
-                                                <label class="form-check-label" for="female">Female</label>
-                                                </div>
+                                                <div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="gender" id="female" value="female" checked>
+                                                        <label class="form-check-label" for="female">Female</label>
+                                                    </div>
+                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                </div>
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                    <label>Present address</label>
-                                    <input type="text" name="paddress" class="form-control">
+                                        <label>Present address</label>
+                                        <input type="text" name="paddress" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -88,18 +87,17 @@
                                     </div>
                                 </div>
                             </div>
-
-                                <div class="mb-3">
-                                        <label>Email</label>
-                                        <input type="email" name="email" class="form-control" placeholder="@gmail.com">
-                                </div>
-
-                                <div class="mb-3">
-                                        <label>Education Qualification</label>
-                                        <input type="text" name="edu" class="form-control" placeholder="">
-                                </div>
-
+                            <div class="mb-3">
+                                    <label>Email</label>
+                                    <input type="email" name="email" class="form-control" placeholder="@gmail.com">
+                            </div>
                             <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="py-1">Education Qualification</label>
+                                        <input type="text" name="edu" class="form-control">
+                                    </div>
+                                </div>
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label for="exampleDataList" class="form-label">Choose Course</label>
@@ -110,6 +108,8 @@
                                         </datalist> 
                                     </div>
                                 </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label for="chooseCourse" class="form-label">Course Duration</label>
@@ -120,14 +120,19 @@
                                         </datalist> 
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="py-1">Why you choose this course</label>
+                                        <input type="text" name="why" class="form-control">
+                                    </div>
+                                </div>
                             </div>
-
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
                                 <label class="form-check-label" for="flexCheckIndeterminate">
-                                All above information are mandatory.
+                                       All above information are mandatory.
                                 </label>
-                                </div>
+                            </div>
                             <div class="mb-3 py-3">
                                 <button type="submit" name="save" class="btn btn-primary">Save</button>
                             </div>

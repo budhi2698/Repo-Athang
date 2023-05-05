@@ -40,36 +40,16 @@
         <!--------------------------------------------------ANNOUNCEMENT-CONTENT--------------------------------------->
         <div class="anncontainer">
             <div class="colm" id="bg-register">
-                <h1>Diploma 2nd Batch Registration</h1>
-                <img src="devop.png" alt="devops" style="border-radius:10px">
-                <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                    Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                    The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                    Human Resources (DoEHR), Registration ends by 23rd August 2021.</p>
-            </div>
-            <div class="colm" id="bg-blue">
-                <h1>Graphic Design</h1>
-                <img src="fullsta.png" alt="javafulstack" style="border-radius:10px">
-                <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                    Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                    The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                    Human Resources (DoEHR), Registration ends by 23rd August 2021.</p>
-            </div>
-            <div class="colm" id="bg-red">
-                <h1>Networking</h1>
-                <img src="network.jpg" alt="Networking"; style="border-radius:10px">
-                <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                    Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                    The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                    Human Resources (DoEHR), Registration ends by 23rd August 2021.</p>
+               <?php include('content/annouce/dilopma.html'); ?>
             </div>
             <div class="colm" id="bg-org">
-                <h1>Project Management</h1>
-                <img src="project.png" alt="Image 1" style="border-radius:10px">
-                <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                    Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                    The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                    Human Resources (DoEHR), Registration ends by 23rd August 2021.</p>
+               <?php include('content/annouce/devops.html'); ?>
+            </div>
+            <div class="colm" id="bg-blue">
+               <?php include('content/annouce/javafull.html'); ?>
+            </div>
+            <div class="colm" id="bg-red">
+               <?php include('content/annouce/eccd.html'); ?>
             </div>
         </div>
         <!------------------------------------------------------FOOTER----------------------------------------------->
