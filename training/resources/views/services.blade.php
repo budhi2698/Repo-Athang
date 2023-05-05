@@ -42,30 +42,34 @@
             <!-----------------------------------------------SERVICE-DETAILS-FLEX--------------------------------------->
             <div class="serviceprovider"> 
                 <div class="cols">
-                    <h1>Dilopma in IT</h1>
+                    <h1> Academic Programs</h1>
                     <div class="icons">
                         <i class="fa-solid fa-graduation-cap"></i></a>
                     </div>
-                    <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for 20 slots for a duration of 6 months </p>
+                    <p>Learning institutes typically offer various 
+                        academic programs such as undergraduate and graduate degrees, 
+                        certificates, diplomas, and other specialized courses in fields like Information Technology, engineering, ECCD, and more.</p>
                 </div>
                 <div class="cols">
-                    <h1>Customer Relationship</h1>
+                    <h1>Professional Development</h1>
                     <div class="icons">
-                         <i class="fa-solid fa-handshake"></i> 
+                         <i class="fa-sharp fa-solid fa-user-tie-hair"></i> 
                     </div>
-                    <p>It uses data analysis about customers' history with a company to improve business relationships with customers, 
-                        specifically focusing on customer retention and ultimately driving sales growth.</p>
+                    <p>Learning institutes also provide training and development opportunities for professionals who want to enhance their skills and knowledge
+                         in specific areas like leadership, project management, data analysis, communication, and more.</p>
                 </div>
                 <div class="cols">
-                    <h1>Maintenance & Support</h1>
+                    <h1>Research Facilities</h1>
                     <div class="icons">
                        <i class="fa fa-hands-holding-child"></i>  
                     </div>
-                    <p>Whether you need additional support in terms of troubleshooting software anomalies or run into a bug that hinders your team 
-                      from getting their work done in a timely fashion, our support team is standing by to lend a hand.</p>
+                    <p>Many learning institutes have research facilities 
+                    such as laboratories, observatories, and libraries that support 
+                    cutting-edge research in fields like software development, engineering, and etc.</p>
                 </div>
             </div>
         </section>
+     
         <!----------------------------------------------------COURSE-DETAILS-------------------------------------------->
         <section id="courses">                                  
             <h2>Courses</h2>
@@ -108,6 +112,14 @@
                  <a href="register">Register here..</a>
             </div>  
         </section>
+        <!------------------------------------------------- Lesson plan---------------------- -->
+     <div class="plan">
+        <p>A lesson plan for Teachers</p>
+        </div>
+                            <div class="mb-3 py-3">
+                            <a href="lesson"name="save" class="btn btn-primary">Register</a>
+                            </div>
+       </div>
         <!---------------------------------------------------FOOTER-----------------------------------------------------> 
         <?php 
             include('footer.php')    

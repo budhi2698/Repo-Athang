@@ -504,7 +504,7 @@
     width: 70%;
     margin-top: 90px;
     margin-bottom: 40px;
-    cursor: pointer;
+   
   } 
 /*--------------------------------------------------------athangbuilding home-----------------------------------------*/
   .as {
@@ -517,7 +517,7 @@
     height: 500px;
     width: 470px;
     border-radius: 25px;
-    cursor: pointer;
+   
   }
   @media only screen and (min-width: 768px) {
     .as {
@@ -531,7 +531,7 @@
       margin-right: 200px;
       border-radius: 25px;
       padding: 15px;
-      cursor: pointer;
+     
     }
     .as img {
       margin-left: 100px;

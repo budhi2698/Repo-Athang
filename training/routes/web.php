@@ -37,3 +37,6 @@ Route::get('vacancy', function () {
 Route::get('training', function () {
     return view('training');
 });
+Route::get('lesson', function () {
+    return view('lesson');
+});
