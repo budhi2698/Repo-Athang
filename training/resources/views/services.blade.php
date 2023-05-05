@@ -114,10 +114,10 @@
         </section>
         <!------------------------------------------------- Lesson plan---------------------- -->
      <div class="plan">
-        <p>A lesson plan for Teachers</p>
+        <p style="text-align:center;">A lesson plan for Teachers</p>
         </div>
                             <div class="mb-3 py-3">
-                            <a href="lesson"name="save" class="btn btn-primary">Register</a>
+                            <a href="lesson"name="save" class="btn btn-primary">Lesson plan </a>
                             </div>
        </div>
         <!---------------------------------------------------FOOTER-----------------------------------------------------> 
