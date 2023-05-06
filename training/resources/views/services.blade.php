@@ -109,7 +109,7 @@
         <!-------------------------------------------------LINK-REGISTER-PAGE-------------------------------------------->
         <div class="mycon">
                 <div class="click">
-                    <a href="register">Register here..</a>
+                    <a href="register">Register here</a>
                 </div>    
                 <div class="plan">
                     <a href="lesson"name="save">Lesson plan </a>

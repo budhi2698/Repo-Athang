@@ -53,9 +53,9 @@
                             <h4 style="text-align:center">choki@athang.com</h4>
                         </div>
                         <div class="team-social">
-                            <a href="https://athang.com/public/w" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                      
                             <a href="https://athang.com/public/w" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-                            <a href="https://athang.com/public/w" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/tshering-choki-a6b47741/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -72,9 +72,9 @@
                             <h4 style="text-align:center">chophel@athang.com</h4>
                         </div>
                         <div class="team-social">
-                            <a href="https://athang.com/public/w" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                          
                             <a href="https://athang.com/public/w" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-                            <a href="https://athang.com/public/w" class="social-li"> <i class="fab fa-linkedin-in"></i></a>  
+                            <a href="https://www.linkedin.com/in/sonam-chophel-560303b0/?originalSubdomain=bt" class="social-li"> <i class="fab fa-linkedin-in"></i></a>  
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,10 @@
                             <h4 style="text-align:center">choning@athang.com</h4>
                         </div>
                         <div class="team-social">
-                            <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                           
                             <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+                            <a href=" https://www.linkedin.com/in/choning-lhamo-552004182/?originalSubdomain=bt" class="social-li"> <i class="fab fa-linkedin-in"></i></a>  
+                           
                         </div>
                     </div>
                 </div>
@@ -107,9 +109,7 @@
                             <h4 style="text-align:center">tenzin@athang.com</h4>
                         </div>
                         <div class="team-social">
-                            <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
                             <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

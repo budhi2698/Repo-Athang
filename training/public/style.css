@@ -133,7 +133,7 @@
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 0;
-    /* font-family: pop; */
+  
     text-align: justify;
   }
   .icons{
@@ -204,13 +204,18 @@
     padding: 20px;
     margin: 20px;
     text-align: center;
+    
   }
   .mycon  section {
     margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
   }
   .mycon  a {
     text-decoration: none;
     color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
   }
   .mycon  .click {
     background-color: #4CAF50;
@@ -223,7 +228,7 @@
       box-shadow: 0px 0px 5px #807c7c;
   }
   .click a:hover{
-      color: rgb(145, 35, 35);
+      color: rgb(0, 0, 0);
   }
 /*---------------------------------------------------------------lesson-plan------------------------------------------*/
   .mycon  .plan {
@@ -232,9 +237,11 @@
     border-radius: 5px;
     margin-left: 10px;
     display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    
   }
   .mycon .plan a:hover {
-    color: #c91919;
+    color: #000000;
   }
   .plan:hover{
     box-shadow: 0px 0px 5px #807c7c;
@@ -591,7 +598,7 @@
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 0;
-    /* font-family: pop; */
+    
     text-align: justify;
   }
   #bg-register {
