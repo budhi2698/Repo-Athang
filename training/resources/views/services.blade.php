@@ -112,7 +112,7 @@
                     <a href="register">Register here</a>
                 </div>    
                 <div class="plan">
-                    <a href="lesson"name="save">Lesson plan </a>
+                    <a href="button"name="save">Lesson plan </a>
                 </div>
         </div>
 

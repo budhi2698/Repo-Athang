@@ -96,7 +96,7 @@
                 <input type="text" id="title" name="title">
             </div>
             <div>
-                <label for="grade">Grade:</label>
+                <label for="grade">Batch:</label>
                 <input type="text" id="grade" name="grade">
             </div>
         </div>

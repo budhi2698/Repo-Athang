@@ -40,3 +40,17 @@ Route::get('training', function () {
 Route::get('lesson', function () {
     return view('lesson');
 });
+
+Route::get('button', function () {
+    return view('button');
+});
+
+Route::get('create', function () {
+    return view('create');
+});
+Route::get('modify', function () {
+    return view('modify');
+});
+Route::get('date', function () {
+    return view('date');
+});

@@ -52,6 +52,10 @@
                <?php include('content/annouce/eccd.html'); ?>
             </div>
         </div>
+        <div class="calender">
+        <iframe src="https://calendar.google.com/calendar/embed?src=classroom110755123382231526553%40group.calendar.google.com&ctz=UTC"
+             style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+         </div>
         <!------------------------------------------------------FOOTER----------------------------------------------->
         <?php 
             include('footer.php')   
@@ -60,40 +64,3 @@
 </html> 
 
 
-<!-- 
-<div class="content1" id="bg-register">
-            <h1>Diploma 2nd Batch Registration</h1>
-            <img src="devop.png" alt="devops"> 
-            <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                Human Resources (DoEHR), Registration ends by 23rd August 2021.
-            </p>
-        </div>
-        <div class="content1" id="bg-blue">
-            <h1>Diploma 2nd Batch Registration</h1>
-            <img src="fullsta.png" alt="javafulstack"> 
-            <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                Human Resources (DoEHR), Registration ends by 23rd August 2021.
-            </p>
-        </div>
-        <div class="content1" id="bg-red">
-            <h1>Diploma 2nd Batch Registration</h1>
-            <img src="early.jpg" alt="child care"> 
-            <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                Human Resources (DoEHR), Registration ends by 23rd August 2021.
-            </p>
-        </div>
-        <div class="content1" id="bg-org">
-            <h1>Diploma 2nd Batch Registration</h1>
-            <img src="early.jpg" alt="child care"> 
-            <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and 
-                Online Freelancing Program for 20 slots for a duration of 6 months supported by 
-                The Human Resource and Skills Development Division (HRSDD),Department of Employment and 
-                Human Resources (DoEHR), Registration ends by 23rd August 2021.
-            </p>
-        </div> -->
