@@ -14,11 +14,11 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-    <div class="row py-5">
+    <div class="row py-1">
             <div class="col-md-12 mx-auto">
                 <div class="card">
                     <div class="card-header col-md-12">
-                        <h4>Student Registration Form<a href="/" class="btn btn-danger float-end">BACK</a></h4>
+                        <h4>Student Registration Form<a href="/services" class="btn btn-danger float-end">BACK</a></h4>
                     </div>
                     <div class="card-body">
                         <form  method="POST">
@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <label class="py-1">Why you choose this course</label>
+                                        <label class="py-1">Why did you choose this course?</label>
                                         <input type="text" name="why" class="form-control">
                                     </div>
                                 </div>

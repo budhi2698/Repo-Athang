@@ -79,7 +79,7 @@
 </head>
 <body>
 
-  <h1> Lesson Plan of Trainer<a href="/" class="btn btn-danger" style="float:right; padding-right:20px">BACK</a></h1>
+  <h1> Lesson Plan of Trainer<a href="/services" class="btn btn-danger" style="float:right; padding-right:20px">BACK</a></h1>
     <form>
         <h2>Lesson Information Details</h2>
         <div class="form-row">

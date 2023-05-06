@@ -51,7 +51,7 @@
                     <li>Transcript of Class XII and X</li>
                     <li>CV</li>
                 </ol>
-                <a href="https://docs.google.com/forms/d/1G_s5F_vSsSawoGcOXDnehPlVR2NBuKm9cNyfTz-12Sk/viewform?edit_requested=true" style="margin-left:520px"> Click here to register</a></p>
+                <a href="/register" style="margin-left:520px"> Click here to register</a></p>
             </div>
             <div class="dpimg">
                <img src="dip.jpg"> 

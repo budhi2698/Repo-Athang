@@ -6,9 +6,9 @@
             <div class="col-md-4">
             <h4>Athang learning Institute</h4>
                 <ul>
-                    <li><a href="/blog">About us</a></li>
+                    <li><a href="/about">About us</a></li>
                     <li><a href="/services">services</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="/contact">Contact us</a></li>
                 </ul>
             </div> 
             <div class="col-md-4">
