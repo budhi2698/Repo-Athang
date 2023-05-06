@@ -54,11 +54,12 @@
         }
         label, input {
         display: inline-block;
-        margin-right: 10px;
+        margin-right: 5px;
         }
         .form-row {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 10px;
