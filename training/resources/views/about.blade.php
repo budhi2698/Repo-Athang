@@ -15,7 +15,7 @@
 
         <!-----------------------------------------------PUBLIC-CSS----------------------------------------------------->
         <link rel="stylesheet" href="style.css">
-
+        <link href="css/style.css" rel="stylesheet">
         <!---------------------------------------------FONTAWSOME-LINK-------------------------------------------------->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">

@@ -9,7 +9,8 @@
         <!-------------------------------------------------URL-IMG----------------------------------------------------->
         <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
         <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
-
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <!-----------------------------------------------BROOTRAPS-LINK------------------------------------------------->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
@@ -18,7 +19,7 @@
             <div class="col-md-12 mx-auto">
                 <div class="card">
                     <div class="card-header col-md-12">
-                        <h4>Student Registration Form<a href="/services" class="btn btn-danger float-end">BACK</a></h4>
+                        <h4>Student Registration Form<a href="/" class="btn btn-danger float-end">BACK</a></h4>
                     </div>
                     <div class="card-body">
                         <form  method="POST">

@@ -1,71 +1,28 @@
-  nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #2c2b2b;
-      color: #fff;
-      margin-bottom: 0;
-      padding: 0;
-      width: 100%;
-  }
-/*-----------------------------------------------------------NAV-IMG-LOGO--------------------------------------------*/
-  .logo-container {
-      display: flex;
-      align-items: center;   
-      width: 30%;
-  }
-  .logo-container img {
-    height: 1.8cm;
-    cursor: pointer;
-    padding: 5px 0px 5px 10px;
-  }
-  .logo-container h4 {
-      font-size: 24px;
-      font-weight: bold;
-      color: rgb(255, 255, 255);
-      font-family: cambay;
-      margin: 0;
-      padding: 0;
-  }
-  .logo-container a h4:hover{
-    color: rgb(145, 35, 35);
-  }
-  nav ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      position: absolute;
-      margin-left: 30%;
-      transform: translateX(50%);
-      transition: all 600ms ease;
-  }
-  nav li {
-      margin: 0 10px;
-      position: relative;
-      font-size:large;
-      z-index: 1;
-      transition: all 600ms ease;
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
 
+.logo-image {
+  max-height: 60px!important;
+  margin-right: 10px;
+}
+
+.navbar-brand .text-danger {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 991.98px) {
+  .logo-image {
+      max-height: 30px; /* Adjust the height for smaller screens */
   }
-  nav a {
-      display: block;
-      padding: 10px;
-      text-decoration: none;
-      color: rgb(255, 255, 255);
-      transition: all 600ms ease;
-  }
-  nav ul li a:hover{
-      color: rgb(209, 9, 9);
-      padding-left: 6px;
-  }
+}
 /*---------------------------------------------------------carousel-home-css------------------------------------------*/
   #carouselExampleInterval{
     cursor: pointer;
     margin-bottom: 26px;
   }
+
 /*---------------------------------------------------------Services-section-css---------------------------------------*/
   #servics{
     padding: 0;

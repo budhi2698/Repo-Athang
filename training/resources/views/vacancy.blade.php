@@ -12,7 +12,7 @@
         <!---------------------------------------------FONTAWSOME-LINK--------------------------------------------------->
         <link rel="stylesheet" href="font-awesome/font-awesome.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-        
+        <link href="css/style.css" rel="stylesheet">
         <!-------------------------------------------------FONTS-------------------------------------------------------->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
