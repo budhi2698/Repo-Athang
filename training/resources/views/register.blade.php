@@ -137,8 +137,8 @@
                                         <li>Citizenship identity card and half photo</li>
                                         <li>Medical certificate (latest one)</li>
                                         <li>Academic transcript of class X and XII</li>
-                                        <li>curriculum vitae</li>
-                                        <li>Your pdf file should not be more than 2mb</li>
+                                        <li>Curriculum vitae</li>
+                                        <li>Your PDF file should be 2mb</li>
                                     </ol>
                                 </div>
                             </div>
@@ -161,5 +161,3 @@
     </body>
 </html>
 
-
-<p>Hi if they kldg</p>
