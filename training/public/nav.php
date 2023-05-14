@@ -2,7 +2,7 @@
   <!-- Navbar Start -->
    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><img src="logonav.jpg" class="logo-image"> Athang Learning Institute</h2>
+            <h2   style="color:red;" class="m-0 text-primary"><img src="logonav.jpg" class="logo-image"> Athang Learning Institute</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -21,9 +21,9 @@
                     </div>
                 </div>
                 <a href="/announce" class="nav-item nav-link">Announcement</a>
-               
                 <a href="/contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
+  
