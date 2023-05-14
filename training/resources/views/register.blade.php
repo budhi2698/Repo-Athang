@@ -139,6 +139,7 @@
                                         <li>Academic transcript of class X and XII</li>
                                         <li>Curriculum vitae</li>
                                         <li>Your PDF file should be 2mb</li>
+                                        <li>Your PDF file should be 2mb</li>
                                     </ol>
                                 </div>
                             </div>
