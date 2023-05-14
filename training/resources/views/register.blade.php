@@ -19,7 +19,7 @@
             <div class="col-md-12 mx-auto">
                 <div class="card">
                     <div class="card-header col-md-12">
-                        <h4>Student Registration Form<a href="/" class="btn btn-danger float-end">BACK</a></h4>
+                        <h4>Student Registration Form<a href="/services" class="btn btn-danger float-end">BACK</a></h4>
                     </div>
                     <div class="card-body">
                         <form  method="POST">
@@ -128,6 +128,20 @@
                                     </div>
                                 </div>
                             </div>
+                            <div>
+                                <label>Document</label>
+                                <input type="file" name="file" class="form-control">
+                                <div class="py-3">
+                                    <h6>Necessary Document Require!</h6>
+                                    <ol type="i">
+                                        <li>Citizenship identity card and half photo</li>
+                                        <li>Medical certificate (latest one)</li>
+                                        <li>Academic transcript of class X and XII</li>
+                                        <li>curriculum vitae</li>
+                                        <li>Your pdf file should not be more than 2mb</li>
+                                    </ol>
+                                </div>
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
                                 <label class="form-check-label" for="flexCheckIndeterminate">
@@ -148,20 +162,4 @@
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>Hi if they kldg</p>
