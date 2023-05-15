@@ -85,7 +85,7 @@ color: rgb(187, 54, 54)!important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav  {
     color:#C10000!important;
 }
 

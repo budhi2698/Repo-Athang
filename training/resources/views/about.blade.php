@@ -1,32 +1,35 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Athang Learning Institute/home</title>
 
-        <!---------------------------------------------------IMG=URL---------------------------------------------------->
-        <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
-        <link rel="icon" type="image/jpg" href="logo_url.jpg" width="512" height="512" />
 
-        <!---------------------------------------------------FONTS------------------------------------------------------>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+<head>
+    <meta charset="utf-8">
+    <title>Athang Learning</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-----------------------------------------------PUBLIC-CSS----------------------------------------------------->
-        <link rel="stylesheet" href="style.css">
-        <link href="css/style.css" rel="stylesheet">
-        <!---------------------------------------------FONTAWSOME-LINK-------------------------------------------------->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Favicon -->
 
-        <!-----------------------------------------------BOOTRAPS-LINK------------------------------------------------->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
-          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
-          integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-        </script>
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
     </head>
     <body class="antialiased">
         <!------------------------------------------------------NAV-BAR------------------------------------------------->
@@ -48,7 +51,7 @@
                             <h2>Tshering choki</h2>
                             <h3>Director</h3>
                             <p><i>Expert in Community-based Sustainable Tourism and Ecotourism, 
-                                heads Training Academy and Athang Adventures, Director of Athang Pvt Ltd"
+                               Director of Athang Pvt Ltd"
                             </i></p>
                             <h4 style="text-align:center">choki@athang.com</h4>
                         </div>

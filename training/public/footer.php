@@ -1,7 +1,7 @@
 
 <!----------------------------------------------------FOOTER-END---------------------------------------------------->
 <footer>
-    <div class="container">
+    <div class="container-y">
         <div class="row">
             <div class="col-md-4">
             <h4>Athang learning Institute</h4>
