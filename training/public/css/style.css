@@ -22,8 +22,6 @@
 }
 
 
-
-
 /*** Button ***/
 .btn {
     font-family: 'Nunito', sans-serif;
@@ -357,7 +355,7 @@ color: rgb(187, 54, 54)!important;
 
 
 /*** Footer ***/
-.footer .btn.btn-social {
+/* .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
     height: 35px;
@@ -420,4 +418,4 @@ color: rgb(187, 54, 54)!important;
     margin-right: 0;
     padding-right: 0;
     border-right: none;
-}
+} */

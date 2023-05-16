@@ -1,7 +1,7 @@
 
 <!----------------------------------------------------FOOTER-END---------------------------------------------------->
 <footer>
-    <div class="container-y">
+    <div class="cont-y">
         <div class="row">
             <div class="col-md-4">
             <h4>Athang learning Institute</h4>
@@ -22,15 +22,15 @@
             <div class="col-md-4">
                 <h4>Special links</h4>
                 <ul> 
-                    <li><a href="https://athang.com/public/w"><i class="fa-solid fa-globe"></i></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100057108984264"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://athang.com/public/w"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100057108984264"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://athang.com/public/w"><i class="fab fa-linkedin-in"></i></a></li>    
                 </ul>
             </div>
         </div>
     </div>
     <div class="bottom-bar">
-        <div class="container">
+        <div class="cont">
             <div class="row">
                 <div class="col-md-12"> 
                     <hr>
