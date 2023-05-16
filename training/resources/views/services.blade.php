@@ -85,32 +85,65 @@
             <div class="colum">
                  <h1>Web Development</h1>
                  <img src="webdev.jpg" alt="Web development" style="border-radius:10px">
-                 <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for a duration of 6 months supported by</p>
+                 <p> we implement rigorous safety checks and test the software to ensure a high level of performance. 
+                    We teach Frontend and backend which include:
+                    <ol type="i">
+                    <li>HTML</li>
+                    <li>PHP</li>
+                    <li>JAVASCRIPT</li>
+                    <li>Mysql</li>
+              
+                 
+                 
+                </p>
             </div>
             <div class="colum">
                  <h1>Graphic Design</h1>
                  <img src="graphic.jpg" alt="Graphic design" style="border-radius:10px">
-                 <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for a duration of 6 months supported by</p>
+                 <p> A typical Graphic Design curriculum includes subjects like Colours and Form, Technical Drawing,
+                      Visual Culture, Additionally Athang Training Academy provide graphic designing Program, 
+                     Which include:
+                   
+                    <ol type="i">
+                    <li>ADOBE photoshop,</li>
+                    <li>Animation</li>
+                    <li> Video editing</li>
+                    <li> Logo Design</li>
+                    <li>Drawing</li>
+                    </ol>
+                </p> 
             </div>
             <div class="colum">
                  <h1>Networking</h1>
                  <img src="network.jpg" alt="Networking"; style="border-radius:10px">
-                 <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for a duration of 6 months supported by</p>
+                 <p>Network specialists and administrators are responsible for day-to-day operations and network architects and engineers design and build local area networks (LANs)
+                 <ol type="i">
+                    <li>Cisco packet tracer</li>
+                    <li>virtual Box</li>
+                    <li>Ubuntu - Networking</li>
+                    </ol>
+                 </p>
             </div>
             <div class="colum">
                  <h1>Project Management</h1>
                  <img src="project.png" alt="Image 1" style="border-radius:10px">
-                 <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for a duration of 6 months supported by</p>
+                 <p>If you have a software product that has served you well over many years but no longer meets your current needs, the best approach for is to arrange for a re-engineering of the app rather than starting over from scratch.
+                     It often proves efficient and cost effective to re-engineer outdated software.</p>
             </div>
             <div class="colum">
                  <h1>ECCD</h1>
                  <img src="child.jpg" alt="Eccd" style="border-radius:10px">
-                 <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for a duration of 6 months supported by</p>
+                 <p>Athang Training Academy 
+                    Athang provides the foundation of life skills to children, like soft skills, good behavior, 
+                    good manners, emotional literacy, pre-literacy, emergent literacy</p>
             </div>
             <div class="colum">
                  <h1>General Training</h1>
                  <img src="gene.jpg" alt="Image 1" style="border-radius:10px">
-                 <p>Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for a duration of 6 months supported by</p>
+                 <p>Athang Training Academy provide Online Freelancing Program and
+                     training a duration of 6 months supported by ministry of labour and resources.
+                    Which you can upgrade your skills by joining variety of trainings.
+                </p>
             </div>
         </div>
         <!-------------------------------------------------LINK-REGISTER-PAGE-------------------------------------------->
