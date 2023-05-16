@@ -137,12 +137,11 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start pe-3">About Us</h6>
                     <h3 class="mb-4">Welcome to Athang Learning Institute</h3>
-                    <p class="mb-4">Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots for 
-                        Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
-                        Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program for 20 slots 
-                        Athang Training Academy is pleased to announce the 2nd batch training on ICT and Online Freelancing Program .</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a class="btn btn-success py-3 px-5 mt-2" href="">Read More</a>
+                    <p class="mb-4">Athang is a pioneering software development and training academy firm greatly driven by the information technology. 
+                                    The company was founded in 2005 with the aim to meet the ever changing demand of the customers in the field of ICT.
+                                    Athang strives for the excellence in offering our services, be it a training programme or developing your website or producing an animation work that our audience would love to watch or restoring your internet breakdown and many more.
+                                    As a company, Athang believes in the team work and democratic working culture to bring the best of every employees at personal as well as professional level. As credentials, Athang has been with some international organizations in IT/software Services, professional training, and 3D animations.</p>
+                    <a class="btn btn-success py-3 px-5 mt-2" href="/services">Read More</a>
                 </div>
             </div>
         </div>
@@ -160,7 +159,7 @@
                 <div class="col-lg-7 col-md-6">
                     <div class="row g-3">
                         <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
+                            <a class="position-relative d-block overflow-hidden" href="/services">
                                 <img class="img-fluid" src="trainig.jpg" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                     <h5 class="m-0">Web Development</h5>
@@ -169,7 +168,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                            <a class="position-relative d-block overflow-hidden" href="">
+                            <a class="position-relative d-block overflow-hidden" href="/services">
                                 <img class="img-fluid" src="nam.jpg" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                     <h5 class="m-0">6 months</h5>
@@ -178,7 +177,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                            <a class="position-relative d-block overflow-hidden" href="">
+                            <a class="position-relative d-block overflow-hidden" href="/services">
                                 <img class="img-fluid" src="eccd.png" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                                     <h5 class="m-0">ECCD </h5>
@@ -189,7 +188,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="/services">
                        <img class="img-fluid position-absolute w-100 h-100" src="divlop.jpg" alt="" style="object-fit: cover;">
                     </a>
                 </div>
@@ -351,18 +350,13 @@
             </div>
         </div>
     </div>
+    <!-- --------------------------------------------------Testimonial End ---------------------------------->
 
-
-    <!-- Testimonial End -->
-        
-        
-
-    <!-- Footer Start -->
-
+    <!------------------------------------------------------- Footer Start ------------------------------->
     <?php 
             include('footer.php')   
         ?>
-    <!-- Footer End -->
+    <!-- ----------------------------Footer End ------------------------------------------->
 
 
 
