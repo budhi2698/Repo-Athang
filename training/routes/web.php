@@ -54,3 +54,9 @@ Route::get('modify', function () {
 Route::get('date', function () {
     return view('date');
 });
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+Route::get('/calendar', function () {
+    return view('admin.calendar');
+});
