@@ -149,97 +149,8 @@
 					</form>
 				</div>
 			</div>
-			<div class="header-right">
-				<div class="dashboard-setting user-notification">
-					<div class="dropdown">
-						<a
-							class="dropdown-toggle no-arrow"
-							href="javascript:;"
-							data-toggle="right-sidebar"
-						>
-							<i class="dw dw-settings2"></i>
-						</a>
-					</div>
-				</div>
-				<div class="user-notification">
-					<div class="dropdown">
-						<a
-							class="dropdown-toggle no-arrow"
-							href="#"
-							role="button"
-							data-toggle="dropdown"
-						>
-							<i class="icon-copy dw dw-notification"></i>
-							<span class="badge notification-active"></span>
-						</a>
-						<div class="dropdown-menu dropdown-menu-right">
-							<div class="notification-list mx-h-350 customscroll">
-								<ul>
-									<li>
-										<a href="#">
-											<img src="vendors/images/img.jpg" alt="" />
-											<h3>John Doe</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo1.jpg" alt="" />
-											<h3>Lea R. Frith</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo2.jpg" alt="" />
-											<h3>Erik L. Richards</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo3.jpg" alt="" />
-											<h3>John Doe</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo4.jpg" alt="" />
-											<h3>Renee I. Hansen</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/img.jpg" alt="" />
-											<h3>Vicki M. Coleman</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+			
+				
 				<div class="user-info-dropdown">
 					<div class="dropdown">
 						<a
@@ -472,28 +383,12 @@
 								><span class="mtext">Home</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="index.html">Dashboard style 1</a></li>
-								<li><a href="index2.html">Dashboard style 2</a></li>
-								<li><a href="index3.html">Dashboard style 3</a></li>
+								<li><a href="/admin">Admin</a></li>
+								<li><a href="/students">Trainer</a></li>
+								<li><a href="/trainers">Student</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-textarea-resize"></span
-								><span class="mtext">Forms</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="form-basic.html">Form Basic</a></li>
-								<li>
-									<a href="advanced-components.html">Advanced Components</a>
-								</li>
-								<li><a href="form-wizard.html">Form Wizard</a></li>
-								<li><a href="html5-editor.html">HTML5 Editor</a></li>
-								<li><a href="form-pickers.html">Form Pickers</a></li>
-								<li><a href="image-cropper.html">Image Cropper</a></li>
-								<li><a href="image-dropzone.html">Image Dropzone</a></li>
-							</ul>
-						</li>
+						
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-table"></span
@@ -510,56 +405,7 @@
 								><span class="mtext">Calendar</span>
 							</a>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-archive"></span
-								><span class="mtext"> UI Elements </span>
-							</a>
-							<ul class="submenu">
-								<li><a href="ui-buttons.html">Buttons</a></li>
-								<li><a href="ui-cards.html">Cards</a></li>
-								<li><a href="ui-cards-hover.html">Cards Hover</a></li>
-								<li><a href="ui-modals.html">Modals</a></li>
-								<li><a href="ui-tabs.html">Tabs</a></li>
-								<li>
-									<a href="ui-tooltip-popover.html">Tooltip &amp; Popover</a>
-								</li>
-								<li><a href="ui-sweet-alert.html">Sweet Alert</a></li>
-								<li><a href="ui-notification.html">Notification</a></li>
-								<li><a href="ui-timeline.html">Timeline</a></li>
-								<li><a href="ui-progressbar.html">Progressbar</a></li>
-								<li><a href="ui-typography.html">Typography</a></li>
-								<li><a href="ui-list-group.html">List group</a></li>
-								<li><a href="ui-range-slider.html">Range slider</a></li>
-								<li><a href="ui-carousel.html">Carousel</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-command"></span
-								><span class="mtext">Icons</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="bootstrap-icon.html">Bootstrap Icons</a></li>
-								<li><a href="font-awesome.html">FontAwesome Icons</a></li>
-								<li><a href="foundation.html">Foundation Icons</a></li>
-								<li><a href="ionicons.html">Ionicons Icons</a></li>
-								<li><a href="themify.html">Themify Icons</a></li>
-								<li><a href="custom-icon.html">Custom Icons</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-pie-chart"></span
-								><span class="mtext">Charts</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="highchart.html">Highchart</a></li>
-								<li><a href="knob-chart.html">jQuery Knob</a></li>
-								<li><a href="jvectormap.html">jvectormap</a></li>
-								<li><a href="apexcharts.html">Apexcharts</a></li>
-							</ul>
-						</li>
+						
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-file-earmark-text"></span
@@ -572,19 +418,7 @@
 								<li><a href="reset-password.html">Reset Password</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-bug"></span
-								><span class="mtext">Error Pages</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="400.html">400</a></li>
-								<li><a href="403.html">403</a></li>
-								<li><a href="404.html">404</a></li>
-								<li><a href="500.html">500</a></li>
-								<li><a href="503.html">503</a></li>
-							</ul>
-						</li>
+						
 
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
@@ -604,48 +438,8 @@
 								<li><a href="pricing-table.html">Pricing Tables</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-hdd-stack"></span
-								><span class="mtext">Multi Level Menu</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li class="dropdown">
-									<a href="javascript:;" class="dropdown-toggle">
-										<span class="micon fa fa-plug"></span
-										><span class="mtext">Level 2</span>
-									</a>
-									<ul class="submenu child">
-										<li><a href="javascript:;">Level 2</a></li>
-										<li><a href="javascript:;">Level 2</a></li>
-									</ul>
-								</li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="sitemap.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-diagram-3"></span
-								><span class="mtext">Sitemap</span>
-							</a>
-						</li>
-						<li>
-							<a href="chat.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-chat-right-dots"></span
-								><span class="mtext">Chat</span>
-							</a>
-						</li>
-						<li>
-							<a href="invoice.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-receipt-cutoff"></span
-								><span class="mtext">Invoice</span>
-							</a>
-						</li>
+						
+						
 						<li>
 							<div class="dropdown-divider"></div>
 						</li>
@@ -658,7 +452,7 @@
 								><span class="mtext">Documentation</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="introduction.html">Introduction</a></li>
+								<li><a href="/introduction">Introduction</a></li>
 								<li><a href="getting-started.html">Getting Started</a></li>
 								<li><a href="color-settings.html">Color Settings</a></li>
 								<li>
@@ -666,19 +460,7 @@
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a
-								href="https://dropways.github.io/deskapp-free-single-page-website-template/"
-								target="_blank"
-								class="dropdown-toggle no-arrow"
-							>
-								<span class="micon bi bi-layout-text-window-reverse"></span>
-								<span class="mtext"
-									>Landing Page
-									<img src="vendors/images/coming-soon.png" alt="" width="25"
-								/></span>
-							</a>
-						</li>
+						
 					</ul>
 				</div>
 			</div>
@@ -1423,88 +1205,10 @@
 					</div>
 				</div>
 
-				<div class="footer-wrap pd-20 mb-20 card-box">
-					DeskApp - Bootstrap 4 Admin Template By
-					<a href="https://github.com/dropways" target="_blank"
-						>Ankit Hingarajiya</a
-					>
-				</div>
+			
 			</div>
 		</div>
-		<!-- welcome modal start -->
-		<div class="welcome-modal">
-			<button class="welcome-modal-close">
-				<i class="bi bi-x-lg"></i>
-			</button>
-			<iframe
-				class="w-100 border-0"
-				src="https://embed.lottiefiles.com/animation/31548"
-			></iframe>
-			<div class="text-center">
-				<h3 class="h5 weight-500 text-center mb-2">
-					Open source
-					<span role="img" aria-label="gratitude">❤️</span>
-				</h3>
-				<div class="pb-2">
-					<a
-						class="github-button"
-						href="https://github.com/dropways/deskapp"
-						data-color-scheme="no-preference: dark; light: light; dark: light;"
-						data-icon="octicon-star"
-						data-size="large"
-						data-show-count="true"
-						aria-label="Star dropways/deskapp dashboard on GitHub"
-						>Star</a
-					>
-					<a
-						class="github-button"
-						href="https://github.com/dropways/deskapp/fork"
-						data-color-scheme="no-preference: dark; light: light; dark: light;"
-						data-icon="octicon-repo-forked"
-						data-size="large"
-						data-show-count="true"
-						aria-label="Fork dropways/deskapp dashboard on GitHub"
-						>Fork</a
-					>
-				</div>
-			</div>
-			<div class="text-center mb-1">
-				<div>
-					<a
-						href="https://github.com/dropways/deskapp"
-						target="_blank"
-						class="btn btn-light btn-block btn-sm"
-					>
-						<span class="text-danger weight-600">STAR US</span>
-						<span class="weight-600">ON GITHUB</span>
-						<i class="fa fa-github"></i>
-					</a>
-				</div>
-				<script
-					async
-					defer="defer"
-					src="https://buttons.github.io/buttons.js"
-				></script>
-			</div>
-			<a
-				href="https://github.com/dropways/deskapp"
-				target="_blank"
-				class="btn btn-success btn-sm mb-0 mb-md-3 w-100"
-			>
-				DOWNLOAD
-				<i class="fa fa-download"></i>
-			</a>
-			<p class="font-14 text-center mb-1 d-none d-md-block">
-				Available in the following technologies:
-			</p>
-			<div class="d-none d-md-flex justify-content-center h1 mb-0 text-danger">
-				<i class="fa fa-html5"></i>
-			</div>
-		</div>
-		<button class="welcome-modal-btn">
-			<i class="fa fa-download"></i> Download
-		</button>
-		<!-- welcome modal end -->
+		
 		<!-- js -->
 		<script src="scripts/core.js"></script>
 		<script src="scripts/script.min.js"></script>

@@ -54,9 +54,25 @@ Route::get('modify', function () {
 Route::get('date', function () {
     return view('date');
 });
-Route::get('/admin', function () {
-    return view('admin.index');
+Route::get('index', function () {
+    return view('index');
 });
-Route::get('/calendar', function () {
-    return view('admin.calendar');
+Route::get('calendar', function () {
+    return view('calendar');
 });
+Route::get('introduction', function () {
+    return view('introduction');
+});
+Route::get('admin', function () {
+    return view('admin');
+});
+Route::get('admin', function () {
+    return view('admin');
+});
+Route::get('trainers', function () {
+    return view('trainers');
+});
+Route::get('students', function () {
+    return view('students');
+});
+

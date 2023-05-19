@@ -2,7 +2,7 @@
 <html>
 	<!-- Basic Page Info -->
     <meta charset="utf-8" />
-		<title>DeskApp - Bootstrap Admin Dashboard HTML Template</title>
+		<title> Admin Dashboard </title>
 
 		<!-- Site favicon -->
 		<link
@@ -84,6 +84,7 @@
 	</head>
 	<body>
 		
+
 		<div class="header">
 			<div class="header-left">
 				<div class="menu-icon bi bi-list"></div>
@@ -162,85 +163,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="user-notification">
-					<div class="dropdown">
-						<a
-							class="dropdown-toggle no-arrow"
-							href="#"
-							role="button"
-							data-toggle="dropdown"
-						>
-							<i class="icon-copy dw dw-notification"></i>
-							<span class="badge notification-active"></span>
-						</a>
-						<div class="dropdown-menu dropdown-menu-right">
-							<div class="notification-list mx-h-350 customscroll">
-								<ul>
-									<li>
-										<a href="#">
-											<img src="vendors/images/img.jpg" alt="" />
-											<h3>John Doe</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo1.jpg" alt="" />
-											<h3>Lea R. Frith</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo2.jpg" alt="" />
-											<h3>Erik L. Richards</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo3.jpg" alt="" />
-											<h3>John Doe</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/photo4.jpg" alt="" />
-											<h3>Renee I. Hansen</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img src="vendors/images/img.jpg" alt="" />
-											<h3>Vicki M. Coleman</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit, sed...
-											</p>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 				<div class="user-info-dropdown">
 					<div class="dropdown">
 						<a
@@ -473,28 +396,12 @@
 								><span class="mtext">Home</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="index.html">Dashboard style 1</a></li>
-								<li><a href="index2.html">Dashboard style 2</a></li>
-								<li><a href="index3.html">Dashboard style 3</a></li>
+								<li><a href="/admin">Admin</a></li>
+								<li><a href="/trainers">Trainers</a></li>
+								<li><a href="/students">Student</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-textarea-resize"></span
-								><span class="mtext">Forms</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="form-basic.html">Form Basic</a></li>
-								<li>
-									<a href="advanced-components.html">Advanced Components</a>
-								</li>
-								<li><a href="form-wizard.html">Form Wizard</a></li>
-								<li><a href="html5-editor.html">HTML5 Editor</a></li>
-								<li><a href="form-pickers.html">Form Pickers</a></li>
-								<li><a href="image-cropper.html">Image Cropper</a></li>
-								<li><a href="image-dropzone.html">Image Dropzone</a></li>
-							</ul>
-						</li>
+					
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-table"></span
@@ -511,56 +418,7 @@
 								><span class="mtext">Calendar</span>
 							</a>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-archive"></span
-								><span class="mtext"> UI Elements </span>
-							</a>
-							<ul class="submenu">
-								<li><a href="ui-buttons.html">Buttons</a></li>
-								<li><a href="ui-cards.html">Cards</a></li>
-								<li><a href="ui-cards-hover.html">Cards Hover</a></li>
-								<li><a href="ui-modals.html">Modals</a></li>
-								<li><a href="ui-tabs.html">Tabs</a></li>
-								<li>
-									<a href="ui-tooltip-popover.html">Tooltip &amp; Popover</a>
-								</li>
-								<li><a href="ui-sweet-alert.html">Sweet Alert</a></li>
-								<li><a href="ui-notification.html">Notification</a></li>
-								<li><a href="ui-timeline.html">Timeline</a></li>
-								<li><a href="ui-progressbar.html">Progressbar</a></li>
-								<li><a href="ui-typography.html">Typography</a></li>
-								<li><a href="ui-list-group.html">List group</a></li>
-								<li><a href="ui-range-slider.html">Range slider</a></li>
-								<li><a href="ui-carousel.html">Carousel</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-command"></span
-								><span class="mtext">Icons</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="bootstrap-icon.html">Bootstrap Icons</a></li>
-								<li><a href="font-awesome.html">FontAwesome Icons</a></li>
-								<li><a href="foundation.html">Foundation Icons</a></li>
-								<li><a href="ionicons.html">Ionicons Icons</a></li>
-								<li><a href="themify.html">Themify Icons</a></li>
-								<li><a href="custom-icon.html">Custom Icons</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-pie-chart"></span
-								><span class="mtext">Charts</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="highchart.html">Highchart</a></li>
-								<li><a href="knob-chart.html">jQuery Knob</a></li>
-								<li><a href="jvectormap.html">jvectormap</a></li>
-								<li><a href="apexcharts.html">Apexcharts</a></li>
-							</ul>
-						</li>
+						
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-file-earmark-text"></span
@@ -573,19 +431,7 @@
 								<li><a href="reset-password.html">Reset Password</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-bug"></span
-								><span class="mtext">Error Pages</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="400.html">400</a></li>
-								<li><a href="403.html">403</a></li>
-								<li><a href="404.html">404</a></li>
-								<li><a href="500.html">500</a></li>
-								<li><a href="503.html">503</a></li>
-							</ul>
-						</li>
+						
 
 						<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
@@ -605,48 +451,7 @@
 								<li><a href="pricing-table.html">Pricing Tables</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-hdd-stack"></span
-								><span class="mtext">Multi Level Menu</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li class="dropdown">
-									<a href="javascript:;" class="dropdown-toggle">
-										<span class="micon fa fa-plug"></span
-										><span class="mtext">Level 2</span>
-									</a>
-									<ul class="submenu child">
-										<li><a href="javascript:;">Level 2</a></li>
-										<li><a href="javascript:;">Level 2</a></li>
-									</ul>
-								</li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-								<li><a href="javascript:;">Level 1</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="sitemap.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-diagram-3"></span
-								><span class="mtext">Sitemap</span>
-							</a>
-						</li>
-						<li>
-							<a href="chat.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-chat-right-dots"></span
-								><span class="mtext">Chat</span>
-							</a>
-						</li>
-						<li>
-							<a href="invoice.html" class="dropdown-toggle no-arrow">
-								<span class="micon bi bi-receipt-cutoff"></span
-								><span class="mtext">Invoice</span>
-							</a>
-						</li>
+						
 						<li>
 							<div class="dropdown-divider"></div>
 						</li>
@@ -687,138 +492,165 @@
 		<div class="mobile-menu-overlay"></div>
 
 		<div class="main-container">
-			<div class="pd-ltr-20 xs-pd-20-10">
-				<div class="min-height-200px">
-					<div class="page-header">
-						<div class="row">
-							<div class="col-md-12 col-sm-12">
-								<div class="title">
-									<h4>Calendar</h4>
+			<div class="xs-pd-20-10 pd-ltr-20">
+				<div class="page-header">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="title">
+								<h4>Dashboard</h4>
+							</div>
+							<nav aria-label="breadcrumb" role="navigation">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+									<li class="breadcrumb-item active" aria-current="page">
+										Dashboard
+									</li>
+								</ol>
+							</nav>
+						</div>
+						<div class="col-md-6 col-sm-12 text-right">
+							<div class="dropdown">
+								<a
+									class="btn btn-primary dropdown-toggle"
+									href="#"
+									role="button"
+									data-toggle="dropdown"
+								>
+									January 2018
+								</a>
+								<div class="dropdown-menu dropdown-menu-right">
+									<a class="dropdown-item" href="#">Export List</a>
+									<a class="dropdown-item" href="#">Policies</a>
+									<a class="dropdown-item" href="#">View Assets</a>
 								</div>
-								<nav aria-label="breadcrumb" role="navigation">
-									<ol class="breadcrumb">
-										<li class="breadcrumb-item">
-											<a href="index.html">Home</a>
-										</li>
-										<li class="breadcrumb-item active" aria-current="page">
-											Calendar
-										</li>
-									</ol>
-								</nav>
 							</div>
 						</div>
 					</div>
-					<div class="pd-20 card-box mb-30">
-						<div class="calendar-wrap">
-							<div id="calendar"></div>
+				</div>
+				<div class="row clearfix progress-box">
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
+						<div class="card-box pd-30 height-100-p">
+							<div class="progress-box text-center">
+								<input
+									type="text"
+									class="knob dial1"
+									value="80"
+									data-width="120"
+									data-height="120"
+									data-linecap="round"
+									data-thickness="0.12"
+									data-bgColor="#fff"
+									data-fgColor="#1b00ff"
+									data-angleOffset="180"
+									readonly
+								/>
+								<h5 class="text-blue padding-top-10 h5">My Earnings</h5>
+								<span class="d-block"
+									>80% Average <i class="fa fa-line-chart text-blue"></i
+								></span>
+							</div>
 						</div>
-						<!-- calendar modal -->
-						<!DOCTYPE html>
-<html>
-<head>
-    <title>Event Calendar</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
-</head>
-<body>
-    <div id="calendar"></div>
-
-    <div id="modal-view-event-add" class="modal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <form id="add-event-form">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Add Event</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label>Event Title</label>
-                            <input type="text" class="form-control" id="event-title" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Event Date</label>
-                            <input type="text" class="form-control" id="event-date" required>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">Save</button>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        $(document).ready(function() {
-            $('#calendar').fullCalendar({
-                events: [
-                    {
-                        title: 'Event 1',
-                        start: '2023-05-20'
-                    },
-                    {
-                        title: 'Event 2',
-                        start: '2023-05-21'
-                    },
-                    // Add more events here...
-                ],
-                header: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'month,agendaWeek,agendaDay'
-                },
-                selectable: true,
-                selectHelper: true,
-                editable: true,
-                eventLimit: true,
-                dayClick: function(date, jsEvent, view) {
-                    $('#event-date').val(date.format('YYYY-MM-DD'));
-                    $('#modal-view-event-add').modal('show');
-                },
-                eventDrop: function(event, delta, revertFunc) {
-                    // Handle event drag and drop here if needed
-                },
-                eventResize: function(event, delta, revertFunc) {
-                    // Handle event resizing here if needed
-                }
-            });
-
-            $('#add-event-form').submit(function(event) {
-                event.preventDefault();
-                var title = $('#event-title').val();
-                var date = $('#event-date').val();
-                if (title && date) {
-                    var eventData = {
-                        title: title,
-                        start: date
-                    };
-                    $('#calendar').fullCalendar('renderEvent', eventData, true);
-                    $('#modal-view-event-add').modal('hide');
-                    $('#event-title').val('');
-                    $('#event-date').val('');
-                }
-            });
-        });
-    </script>
-</body>
-</html>
-
-	
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
+						<div class="card-box pd-30 height-100-p">
+							<div class="progress-box text-center">
+								<input
+									type="text"
+									class="knob dial2"
+									value="70"
+									data-width="120"
+									data-height="120"
+									data-linecap="round"
+									data-thickness="0.12"
+									data-bgColor="#fff"
+									data-fgColor="#00e091"
+									data-angleOffset="180"
+									readonly
+								/>
+								<h5 class="text-light-green padding-top-10 h5">
+									Business Captured
+								</h5>
+								<span class="d-block"
+									>75% Average <i class="fa text-light-green fa-line-chart"></i
+								></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
+						<div class="card-box pd-30 height-100-p">
+							<div class="progress-box text-center">
+								<input
+									type="text"
+									class="knob dial3"
+									value="90"
+									data-width="120"
+									data-height="120"
+									data-linecap="round"
+									data-thickness="0.12"
+									data-bgColor="#fff"
+									data-fgColor="#f56767"
+									data-angleOffset="180"
+									readonly
+								/>
+								<h5 class="text-light-orange padding-top-10 h5">
+									Projects Speed
+								</h5>
+								<span class="d-block"
+									>90% Average <i class="fa text-light-orange fa-line-chart"></i
+								></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
+						<div class="card-box pd-30 height-100-p">
+							<div class="progress-box text-center">
+								<input
+									type="text"
+									class="knob dial4"
+									value="65"
+									data-width="120"
+									data-height="120"
+									data-linecap="round"
+									data-thickness="0.12"
+									data-bgColor="#fff"
+									data-fgColor="#a683eb"
+									data-angleOffset="180"
+									readonly
+								/>
+								<h5 class="text-light-purple padding-top-10 h5">
+									Panding Orders
+								</h5>
+								<span class="d-block"
+									>65% Average <i class="fa text-light-purple fa-line-chart"></i
+								></span>
+							</div>
+						</div>
+					</div>
+				</div>
 		
-		<!-- welcome modal end -->
+			
+					<div class="col-lg-5 col-md-12 col-sm-12 mb-30">
+						<div class="card-box pd-30 height-100-p">
+							<h4 class="mb-30 h4">Records</h4>
+							<div id="chart" class="chart"></div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	
 		<!-- js -->
 		<script src="scripts/core.js"></script>
 		<script src="scripts/script.min.js"></script>
 		<script src="scripts/process.js"></script>
 		<script src="scripts/layout-settings.js"></script>
-		<script src="src/plugins/fullcalendar/fullcalendar.min.js"></script>
-		<script src="scripts/calendar-setting.js"></script>
+		<script src="src/plugins/jQuery-Knob-master/jquery.knob.min.js"></script>
+		<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
+		<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
+		<script src="src/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+		<script src="src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+		<script src="scripts/dashboard2.js"></script>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript
 			><iframe
