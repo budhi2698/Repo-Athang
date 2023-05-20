@@ -84,6 +84,7 @@
 	</head>
 	<body>
 	
+
 		<div class="header">
 			<div class="header-left">
 				<div class="menu-icon bi bi-list"></div>
@@ -371,6 +372,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="left-side-bar">
 			<div class="brand-logo">
 				<a href="index.html">
@@ -394,20 +396,18 @@
 								><span class="mtext">Home</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="/admin">Admin</a></li>
+							<li><a href="/admin">Admin</a></li>
 								<li><a href="/trainers">Trainers</a></li>
 								<li><a href="/students">Student</a></li>
 							</ul>
 						</li>
 						
-					
 						<li>
 							<a href="/calendar" class="dropdown-toggle no-arrow">
 								<span class="micon bi bi-calendar4-week"></span
 								><span class="mtext">Calendar</span>
 							</a>
 						</li>
-						
 						<li>
 							<a href="chat.html" class="dropdown-toggle no-arrow">
 								<span class="micon bi bi-chat-right-dots"></span
@@ -427,10 +427,10 @@
 								><span class="mtext">Documentation</span>
 							</a>
 							<ul class="submenu">
-							<li><a href="/introduction">Introduction</a></li>
+								<li><a href="/introduction">Introduction</a></li>
 								<li><a href="/getting">Getting Started</a></li>
 								<li><a href="/color">Color Settings</a></li>
-								
+							
 							</ul>
 						</li>
 						
@@ -441,247 +441,260 @@
 		<div class="mobile-menu-overlay"></div>
 
 		<div class="main-container">
-			<div class="pd-ltr-20">
-				<div class="card-box pd-20 height-100-p mb-30">
-					<div class="row align-items-center">
-						<div class="col-md-4">
-							<img src="ap.jpg" alt="" />
+			<div class="pd-ltr-20 xs-pd-20-10">
+				<div class="min-height-200px">
+					<div class="page-header">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="title">
+									<h4>Getting Started</h4>
+								</div>
+								<nav aria-label="breadcrumb" role="navigation">
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item">
+											<a href="index.html">Home</a>
+										</li>
+										<li class="breadcrumb-item">
+											<a href="javascript:;">Documentation</a>
+										</li>
+										<li class="breadcrumb-item active" aria-current="page">
+											Getting Started
+										</li>
+									</ol>
+								</nav>
+							</div>
+							<div class="col-md-6 col-sm-12 text-right">
+								<div class="dropdown">
+									<a
+										class="btn btn-primary dropdown-toggle"
+										href="#"
+										role="button"
+										data-toggle="dropdown"
+									>
+										Menu
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="/introduction"
+											>Introduction</a
+										>
+										<a class="dropdown-item active" href="/getting"
+											>Getting Started</a
+										>
+										<a class="dropdown-item" href="/color"
+											>Color Settings</a
+										>
+										
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="col-md-8">
-							<h4 class="font-20 weight-500 mb-10 text-capitalize">
-								Student Overview 
-								<div class="weight-600 font-30 text-blue">Registered</div>
-							</h4>
-							<p class="font-18 max-width-600">
-								Student candiate based on their category or Marks is selected
-							</p>
+					</div>
+					<div class="pd-20 card-box mb-30">
+						<h4 class="h4 text-blue mb-10">Getting Started</h4>
+						<div class="alert alert-primary" role="alert">
+							Note: we recomonded you to please make your one own css file & one
+							js files and add that in your page, so whenever the update of
+							Severny admin comes it does not affect your code.
+						</div>
+						<div class="alert alert-danger" role="alert">
+							If you are using css then no need to follow below steps. Just go
+							to the index.html and open that file in to the browser for desire
+							output.
+						</div>
+						<div class="alert alert-danger" role="alert">
+							If you are using scss and package managing then we have
+							compilation tool (gulp) for that please follow the below steps.
+						</div>
+						<div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item pt-20 pb-20">
+									<h6 class="weight-400 d-flex">
+										<i
+											class="icon-copy dw dw-checked mr-2"
+											data-color="#1b00ff"
+										></i>
+										Install Node.js From
+										<a
+											href="https://nodejs.org/en/download/"
+											class="ml-2"
+											target="_blank"
+											data-color="#1b00ff"
+											>https://nodejs.org/en/download/</a
+										>
+									</h6>
+								</li>
+								<li class="list-group-item pt-20 pb-20">
+									<h6 class="weight-400 d-flex">
+										<i
+											class="icon-copy dw dw-checked mr-2"
+											data-color="#1b00ff"
+										></i>
+										After that open command promt or any other terminal and go
+										to Package Path.
+									</h6>
+								</li>
+								<li class="list-group-item pt-20 pb-20">
+									<h6 class="weight-400 d-flex">
+										<i
+											class="icon-copy dw dw-checked mr-2"
+											data-color="#1b00ff"
+										></i>
+										Npm is a default package manager for the JavaScript runtime
+										environment Node.js. If you've already then update once.
+									</h6>
+									<div
+										class="bg-dark py-2 px-3 ml-md-4 mt-md-3 text-white rounded-lg shadow"
+									>
+										<p class="mb-0">npm install --global npm@latest</p>
+									</div>
+									<div class="ml-md-4 mt-md-3 alert alert-success p-0">
+										<div class="bg-success mb-0 text-white py-2 px-3">
+											<p class="mb-0">
+												To check weather is node succesfully install or not.
+											</p>
+										</div>
+										<div class="p-3">
+											<p class="mb-0 weight-500">npm --version</p>
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item pt-20 pb-20">
+									<h6 class="weight-400 d-flex">
+										<i
+											class="icon-copy dw dw-checked mr-2"
+											data-color="#1b00ff"
+										></i>
+										Gulp is a cross-platform, streaming task runner that lets
+										developers automate many development tasks. To install gulp
+										globally has inclue:
+									</h6>
+									<div
+										class="bg-dark py-2 px-3 ml-md-4 mt-md-3 text-white rounded-lg shadow"
+									>
+										<p class="mb-0">npm install --global gulp-cli</p>
+									</div>
+									<div class="ml-md-4 mt-md-3 alert alert-success p-0">
+										<div class="bg-success mb-0 text-white py-2 px-3">
+											<p class="mb-0">
+												If you have previously installed gulp then remove it.
+											</p>
+										</div>
+										<div class="p-3">
+											<p class="mb-0 weight-500">npm rm --global gulp</p>
+										</div>
+									</div>
+									<div class="ml-md-4 mt-md-3 alert alert-success p-0">
+										<div class="bg-success mb-0 text-white py-2 px-3">
+											<p class="mb-0">
+												To check weather is gulp succesfully install or not.
+											</p>
+										</div>
+										<div class="p-3">
+											<p class="mb-0 weight-500">gulp --version</p>
+										</div>
+									</div>
+								</li>
+								<li class="list-group-item pt-20 pb-20">
+									<h6 class="weight-400 d-flex">
+										<i
+											class="icon-copy dw dw-checked mr-2"
+											data-color="#1b00ff"
+										></i>
+										Below Command will execute all the assets(js,css) to the
+										dist folder separately.
+									</h6>
+									<div
+										class="bg-dark py-2 px-3 ml-md-4 mt-md-3 text-white rounded-lg shadow"
+									>
+										<p class="mb-0">gulp</p>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 				
-				
-				<div class="card-box mb-30">
-					<h2 class="h4 pd-20">Student Registeration</h2>
-					<table class="data-table table nowrap">
-						<thead>
-							<tr>
-								<th class="table-plus datatable-nosort">SL.NO</th>
-								<th>Name</th>
-								<th>Gender</th>
-								<th>DOB</th>
-								<th>CID</th>
-								<th>Courses</th>
-								<th class="datatable-nosort">Action</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="table-plus">
-									1
-								</td>
-								<td>
-									
-									 John Doe
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>diploma</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-								2
-								</td>
-								<td>
-									qwuer
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>diploma</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-								3
-								</td>
-								<td>
-								
-								yas
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>diploma</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-									4
-								</td>
-								<td>
-									
-									gyel
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>ECCS</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-									5
-								</td>
-								<td>
-									
-								Pema
-								</td>
-								<td>male</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>EECD</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				
 			</div>
 		</div>
-		
+		<!-- welcome modal start -->
+		<div class="welcome-modal">
+			<button class="welcome-modal-close">
+				<i class="bi bi-x-lg"></i>
+			</button>
+			<iframe
+				class="w-100 border-0"
+				src="https://embed.lottiefiles.com/animation/31548"
+			></iframe>
+			<div class="text-center">
+				<h3 class="h5 weight-500 text-center mb-2">
+					Open source
+					<span role="img" aria-label="gratitude">❤️</span>
+				</h3>
+				<div class="pb-2">
+					<a
+						class="github-button"
+						href="https://github.com/dropways/deskapp"
+						data-color-scheme="no-preference: dark; light: light; dark: light;"
+						data-icon="octicon-star"
+						data-size="large"
+						data-show-count="true"
+						aria-label="Star dropways/deskapp dashboard on GitHub"
+						>Star</a
+					>
+					<a
+						class="github-button"
+						href="https://github.com/dropways/deskapp/fork"
+						data-color-scheme="no-preference: dark; light: light; dark: light;"
+						data-icon="octicon-repo-forked"
+						data-size="large"
+						data-show-count="true"
+						aria-label="Fork dropways/deskapp dashboard on GitHub"
+						>Fork</a
+					>
+				</div>
+			</div>
+			<div class="text-center mb-1">
+				<div>
+					<a
+						href="https://github.com/dropways/deskapp"
+						target="_blank"
+						class="btn btn-light btn-block btn-sm"
+					>
+						<span class="text-danger weight-600">STAR US</span>
+						<span class="weight-600">ON GITHUB</span>
+						<i class="fa fa-github"></i>
+					</a>
+				</div>
+				<script
+					async
+					defer="defer"
+					src="https://buttons.github.io/buttons.js"
+				></script>
+			</div>
+			<a
+				href="https://github.com/dropways/deskapp"
+				target="_blank"
+				class="btn btn-success btn-sm mb-0 mb-md-3 w-100"
+			>
+				DOWNLOAD
+				<i class="fa fa-download"></i>
+			</a>
+			<p class="font-14 text-center mb-1 d-none d-md-block">
+				Available in the following technologies:
+			</p>
+			<div class="d-none d-md-flex justify-content-center h1 mb-0 text-danger">
+				<i class="fa fa-html5"></i>
+			</div>
+		</div>
+		<button class="welcome-modal-btn">
+			<i class="fa fa-download"></i> Download
+		</button>
+		<!-- welcome modal end -->
 		<!-- js -->
 		<script src="scripts/core.js"></script>
 		<script src="scripts/script.min.js"></script>
 		<script src="scripts/process.js"></script>
 		<script src="scripts/layout-settings.js"></script>
-		<script src="src/plugins/apexcharts/apexcharts.min.js"></script>
-		<script src="src/plugins/datatables/js/jquery.dataTables.min.js"></script>
-		<script src="src/plugins/datatables/js/dataTables.bootstrap4.min.js"></script>
-		<script src="src/plugins/datatables/js/dataTables.responsive.min.js"></script>
-		<script src="src/plugins/datatables/js/responsive.bootstrap4.min.js"></script>
-		<script src="scripts/dashboard.js"></script>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript
 			><iframe

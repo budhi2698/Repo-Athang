@@ -371,24 +371,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="left-side-bar">
-			<div class="brand-logo">
-				<a href="index.html">
-					<img src="vendors/images/deskapp-logo.svg" alt="" class="dark-logo" />
-					<img
-						src="vendors/images/deskapp-logo-white.svg"
-						alt=""
-						class="light-logo"
-					/>
-				</a>
-				<div class="close-sidebar" data-toggle="left-sidebar-close">
-					<i class="ion-close-round"></i>
-				</div>
-			</div>
 			<div class="menu-block customscroll">
 				<div class="sidebar-menu">
 					<ul id="accordion-menu">
-						<li class="dropdown">
+					<li class="dropdown">
 							<a href="javascript:;" class="dropdown-toggle">
 								<span class="micon bi bi-house"></span
 								><span class="mtext">Home</span>
@@ -399,8 +385,8 @@
 								<li><a href="/students">Student</a></li>
 							</ul>
 						</li>
-						
 					
+						
 						<li>
 							<a href="/calendar" class="dropdown-toggle no-arrow">
 								<span class="micon bi bi-calendar4-week"></span
@@ -414,6 +400,8 @@
 								><span class="mtext">Announcement</span>
 							</a>
 						</li>
+
+						
 						
 						<li>
 							<div class="dropdown-divider"></div>
@@ -441,231 +429,173 @@
 		<div class="mobile-menu-overlay"></div>
 
 		<div class="main-container">
-			<div class="pd-ltr-20">
-				<div class="card-box pd-20 height-100-p mb-30">
-					<div class="row align-items-center">
-						<div class="col-md-4">
-							<img src="ap.jpg" alt="" />
-						</div>
-						<div class="col-md-8">
-							<h4 class="font-20 weight-500 mb-10 text-capitalize">
-								Student Overview 
-								<div class="weight-600 font-30 text-blue">Registered</div>
-							</h4>
-							<p class="font-18 max-width-600">
-								Student candiate based on their category or Marks is selected
-							</p>
+			<div class="pd-ltr-20 xs-pd-20-10">
+				<div class="min-height-200px">
+					<div class="page-header">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="title">
+									<h4>Color Settings</h4>
+								</div>
+								<nav aria-label="breadcrumb" role="navigation">
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item">
+											<a href="/index">Home</a>
+										</li>
+										<li class="breadcrumb-item">
+											<a href="javascript:;">Documentation</a>
+										</li>
+										<li class="breadcrumb-item active" aria-current="page">
+											Color Settings
+										</li>
+									</ol>
+								</nav>
+							</div>
+							<div class="col-md-6 col-sm-12 text-right">
+								<div class="dropdown">
+									<a
+										class="btn btn-primary dropdown-toggle"
+										href="#"
+										role="button"
+										data-toggle="dropdown"
+									>
+										Menu
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="/introduction"
+											>Introduction</a
+										>
+										<a class="dropdown-item" href="/getting"
+											>Getting Started</a
+										>
+										<a class="dropdown-item active" href="/color"
+											>Color Settings</a
+										>
+										
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				
-				
-				<div class="card-box mb-30">
-					<h2 class="h4 pd-20">Student Registeration</h2>
-					<table class="data-table table nowrap">
-						<thead>
-							<tr>
-								<th class="table-plus datatable-nosort">SL.NO</th>
-								<th>Name</th>
-								<th>Gender</th>
-								<th>DOB</th>
-								<th>CID</th>
-								<th>Courses</th>
-								<th class="datatable-nosort">Action</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="table-plus">
-									1
-								</td>
-								<td>
-									
-									 John Doe
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>diploma</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-								2
-								</td>
-								<td>
-									qwuer
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>diploma</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-								3
-								</td>
-								<td>
-								
-								yas
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>diploma</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-									4
-								</td>
-								<td>
-									
-									gyel
-								</td>
-								<td>female</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>ECCS</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="table-plus">
-									5
-								</td>
-								<td>
-									
-								Pema
-								</td>
-								<td>male</td>
-								<td>22/22/22</td>
-								<td>1324234242424</td>
-								<td>EECD</td>
-								<td>
-									<div class="dropdown">
-										<a
-											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-											href="#"
-											role="button"
-											data-toggle="dropdown"
-										>
-											<i class="dw dw-more"></i>
-										</a>
-										<div
-											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-										>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-eye"></i> View</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-edit2"></i> Edit</a
-											>
-											<a class="dropdown-item" href="#"
-												><i class="dw dw-delete-3"></i> Delete</a
-											>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					<div class="pd-20 card-box mb-30">
+						<h4 class="h4 text-blue mb-15">
+							How to Change Sidebar Background Color ?
+						</h4>
+						<div class="row">
+							<div class="col-md-5">
+								<p>Default sidebar color is dark</p>
+								<p>
+									<img
+										src="sidebar-dark.png"
+										class="box-shadow"
+										alt=""
+									/>
+								</p>
+							</div>
+							<div class="col-md-7">
+								<p>
+									Change sidebar color for white add class in
+									<code>body class="sidebar-light"</code>
+								</p>
+								<p>
+									<img
+										src="sidebar-white.png"
+										class="box-shadow"
+										alt=""
+									/>
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="pd-20 card-box mb-30">
+						<h4 class="h4 text-blue mb-15">Change Menu Dropdown icon</h4>
+						<p class="pb-20">
+							add class in <code>sidebar-menu</code> for change icon
+						</p>
+						<div class="d-flex flex-wrap pl-20 pr-20 justify-content-center">
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3><i class="fa fa-angle-down"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-style-1</code></div>
+							</div>
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3><i class="ion-plus-round"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-style-2</code></div>
+							</div>
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3><i class="fa fa-angle-double-right"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-style-3</code></div>
+							</div>
+						</div>
+					</div>
+					<div class="pd-20 card-box mb-30">
+						<h4 class="h4 text-blue mb-15">Change Menu Dropdown List icon</h4>
+						<p class="pb-20">
+							add class in <code>sidebar-menu</code> for change icon
+						</p>
+						<div class="d-flex flex-wrap pl-20 pr-20 justify-content-center">
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3 class="h4 mb-0"><i class="ion-minus-round"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-list-style-1</code></div>
+							</div>
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3 class="h4 mb-0"><i class="fa fa-circle-o"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-list-style-2</code></div>
+							</div>
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3 class="h4 mb-0"><i class="dw dw-check"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-list-style-3</code></div>
+							</div>
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3 class="h4 mb-0"><i class="dw dw-next-2"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-list-style-4</code></div>
+							</div>
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3 class="h4 mb-0"><i class="dw dw-fast-forward-1"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-list-style-5</code></div>
+							</div>
+							<div class="pr-30 pb-20 text-center">
+								<div
+									class="width-box mx-auto box-shadow d-flex align-items-center justify-content-center"
+								>
+									<h3 class="h4 mb-0"><i class="dw dw-next"></i></h3>
+								</div>
+								<div class="pt-10"><code>icon-list-style-6</code></div>
+							</div>
+						</div>
+					</div>
 				</div>
 				
 			</div>
@@ -676,12 +606,6 @@
 		<script src="scripts/script.min.js"></script>
 		<script src="scripts/process.js"></script>
 		<script src="scripts/layout-settings.js"></script>
-		<script src="src/plugins/apexcharts/apexcharts.min.js"></script>
-		<script src="src/plugins/datatables/js/jquery.dataTables.min.js"></script>
-		<script src="src/plugins/datatables/js/dataTables.bootstrap4.min.js"></script>
-		<script src="src/plugins/datatables/js/dataTables.responsive.min.js"></script>
-		<script src="src/plugins/datatables/js/responsive.bootstrap4.min.js"></script>
-		<script src="scripts/dashboard.js"></script>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript
 			><iframe

@@ -172,10 +172,10 @@
 							role="button"
 							data-toggle="dropdown"
 						>
-							<span class="user-icon">
-								<img src="vendors/images/photo1.jpg" alt="" />
+						<span class="user-icon">
+								<img src="tshering.jpg" alt="" />
 							</span>
-							<span class="user-name">Ross C. Lopez</span>
+							<span class="user-name">Admin</span>
 						</a>
 						<div
 							class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
@@ -402,16 +402,7 @@
 							</ul>
 						</li>
 					
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-table"></span
-								><span class="mtext">Tables</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="basic-table.html">Basic Tables</a></li>
-								<li><a href="datatable.html">DataTables</a></li>
-							</ul>
-						</li>
+						
 						<li>
 							<a href="/calendar" class="dropdown-toggle no-arrow">
 								<span class="micon bi bi-calendar4-week"></span
@@ -419,37 +410,11 @@
 							</a>
 						</li>
 						
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-file-earmark-text"></span
-								><span class="mtext">Additional Pages</span>
+						<li>
+							<a href="chat.html" class="dropdown-toggle no-arrow">
+								<span class="micon bi bi-chat-right-dots"></span
+								><span class="mtext">Announcement</span>
 							</a>
-							<ul class="submenu">
-								<li><a href="video-player.html">Video Player</a></li>
-								<li><a href="login.html">Login</a></li>
-								<li><a href="forgot-password.html">Forgot Password</a></li>
-								<li><a href="reset-password.html">Reset Password</a></li>
-							</ul>
-						</li>
-						
-
-						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
-								<span class="micon bi bi-back"></span
-								><span class="mtext">Extra Pages</span>
-							</a>
-							<ul class="submenu">
-								<li><a href="blank.html">Blank</a></li>
-								<li><a href="contact-directory.html">Contact Directory</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="blog-detail.html">Blog Detail</a></li>
-								<li><a href="product.html">Product</a></li>
-								<li><a href="product-detail.html">Product Detail</a></li>
-								<li><a href="faq.html">FAQ</a></li>
-								<li><a href="profile.html">Profile</a></li>
-								<li><a href="gallery.html">Gallery</a></li>
-								<li><a href="pricing-table.html">Pricing Tables</a></li>
-							</ul>
 						</li>
 						
 						<li>
@@ -464,27 +429,13 @@
 								><span class="mtext">Documentation</span>
 							</a>
 							<ul class="submenu">
-								<li><a href="introduction.html">Introduction</a></li>
-								<li><a href="getting-started.html">Getting Started</a></li>
-								<li><a href="color-settings.html">Color Settings</a></li>
-								<li>
-									<a href="third-party-plugins.html">Third Party Plugins</a>
-								</li>
+								<li><a href="/introduction">Introduction</a></li>
+								<li><a href="/getting">Getting Started</a></li>
+								<li><a href="/color">Color Settings</a></li>
+								
 							</ul>
 						</li>
-						<li>
-							<a
-								href="https://dropways.github.io/deskapp-free-single-page-website-template/"
-								target="_blank"
-								class="dropdown-toggle no-arrow"
-							>
-								<span class="micon bi bi-layout-text-window-reverse"></span>
-								<span class="mtext"
-									>Landing Page
-									<img src="vendors/images/coming-soon.png" alt="" width="25"
-								/></span>
-							</a>
-						</li>
+					
 					</ul>
 				</div>
 			</div>
@@ -496,14 +447,12 @@
 				<div class="page-header">
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
-							<div class="title">
-								<h4>Dashboard</h4>
-							</div>
+						
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 									<li class="breadcrumb-item active" aria-current="page">
-										Dashboard
+										Trainers
 									</li>
 								</ol>
 							</nav>
@@ -526,115 +475,60 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row clearfix progress-box">
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="card-box pd-30 height-100-p">
-							<div class="progress-box text-center">
-								<input
-									type="text"
-									class="knob dial1"
-									value="80"
-									data-width="120"
-									data-height="120"
-									data-linecap="round"
-									data-thickness="0.12"
-									data-bgColor="#fff"
-									data-fgColor="#1b00ff"
-									data-angleOffset="180"
-									readonly
-								/>
-								<h5 class="text-blue padding-top-10 h5">My Earnings</h5>
-								<span class="d-block"
-									>80% Average <i class="fa fa-line-chart text-blue"></i
-								></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="card-box pd-30 height-100-p">
-							<div class="progress-box text-center">
-								<input
-									type="text"
-									class="knob dial2"
-									value="70"
-									data-width="120"
-									data-height="120"
-									data-linecap="round"
-									data-thickness="0.12"
-									data-bgColor="#fff"
-									data-fgColor="#00e091"
-									data-angleOffset="180"
-									readonly
-								/>
-								<h5 class="text-light-green padding-top-10 h5">
-									Business Captured
-								</h5>
-								<span class="d-block"
-									>75% Average <i class="fa text-light-green fa-line-chart"></i
-								></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="card-box pd-30 height-100-p">
-							<div class="progress-box text-center">
-								<input
-									type="text"
-									class="knob dial3"
-									value="90"
-									data-width="120"
-									data-height="120"
-									data-linecap="round"
-									data-thickness="0.12"
-									data-bgColor="#fff"
-									data-fgColor="#f56767"
-									data-angleOffset="180"
-									readonly
-								/>
-								<h5 class="text-light-orange padding-top-10 h5">
-									Projects Speed
-								</h5>
-								<span class="d-block"
-									>90% Average <i class="fa text-light-orange fa-line-chart"></i
-								></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-						<div class="card-box pd-30 height-100-p">
-							<div class="progress-box text-center">
-								<input
-									type="text"
-									class="knob dial4"
-									value="65"
-									data-width="120"
-									data-height="120"
-									data-linecap="round"
-									data-thickness="0.12"
-									data-bgColor="#fff"
-									data-fgColor="#a683eb"
-									data-angleOffset="180"
-									readonly
-								/>
-								<h5 class="text-light-purple padding-top-10 h5">
-									Panding Orders
-								</h5>
-								<span class="d-block"
-									>65% Average <i class="fa text-light-purple fa-line-chart"></i
-								></span>
-							</div>
-						</div>
-					</div>
-				</div>
-		
+					<div class="card-box mb-30">
+					<h2 class="h4 pd-20">Student Registeration</h2>
+					<table class="data-table table nowrap">
+						<thead>
+							<tr>
+								<th class="table-plus datatable-nosort">SL.NO</th>
+								<th>Name</th>
+								<th>Gender</th>
+								<th>DOB</th>
+								<th>CID</th>
+								<th>Courses</th>
+								<th class="datatable-nosort">Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="table-plus">
+									1
+								</td>
+								<td>
+									
+									 John Doe
+								</td>
+								<td>female</td>
+								<td>22/22/22</td>
+								<td>1324234242424</td>
+								<td>diploma</td>
+								<td>
+									<div class="dropdown">
+										<a
+											class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
+											href="#"
+											role="button"
+											data-toggle="dropdown"
+										>
+											<i class="dw dw-more"></i>
+										</a>
+										<div
+											class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
+										>
+											<a class="dropdown-item" href="#"
+												><i class="dw dw-eye"></i> View</a
+											>
+											<a class="dropdown-item" href="#"
+												><i class="dw dw-edit2"></i> Edit</a
+											>
+											<a class="dropdown-item" href="#"
+												><i class="dw dw-delete-3"></i> Delete</a
+											>
+										</div>
+									</div>
+								</td>
+							</tr>
 			
-					<div class="col-lg-5 col-md-12 col-sm-12 mb-30">
-						<div class="card-box pd-30 height-100-p">
-							<h4 class="mb-30 h4">Records</h4>
-							<div id="chart" class="chart"></div>
-						</div>
-					</div>
 				</div>
 				
 			</div>

@@ -75,4 +75,9 @@ Route::get('trainers', function () {
 Route::get('students', function () {
     return view('students');
 });
-
+Route::get('getting', function () {
+    return view('getting');
+});
+Route::get('color', function () {
+    return view('color');
+});
