@@ -53,10 +53,7 @@
                <?php include('content/annouce/eccd.html'); ?>
             </div>
         </div>
-        <div class="calender">
-        <iframe src="https://calendar.google.com/calendar/embed?src=classroom110755123382231526553%40group.calendar.google.com&ctz=UTC"
-             style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-         </div>
+      
         <!------------------------------------------------------FOOTER----------------------------------------------->
         <?php 
             include('footer.php')   
